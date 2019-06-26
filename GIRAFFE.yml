@@ -2,6 +2,6 @@
 tools:
   porcupine:
     files:
-      - GIRAFFE/porcupine_pipeline.pork
-    nodes: 
+      - GIRAFFE/pipeline.pork
+    nodes:
       - https://raw.githubusercontent.com/TimVanMourik/OpenFmriAnalysis/master/GIRAFFE/tvm_nodes.json
