@@ -1,36 +1,6 @@
 {
   "links": [
     {
-      "id": "f705b62c-e53d-4c2d-8a2a-abd2e86291cb",
-      "from": "0e34db0a-d81c-4ce1-a43e-57f99ea17b9d",
-      "to": "2a9299ce-36dd-4258-8b8c-4eee8c181392"
-    },
-    {
-      "id": "ff91e3db-7e4f-447c-a382-2d830f1e6b9b",
-      "from": "536a5bdf-70f1-40a5-94b6-b851bce921e0",
-      "to": "1292febd-8a25-4a02-b080-142efc5599b9"
-    },
-    {
-      "id": "32eb132a-e1ff-46d4-9433-e0dcdeb85ba3",
-      "from": "2c4e2f14-9110-4052-b2eb-e458c467831f",
-      "to": "a3745faf-7dde-468b-b700-ad53b5b8f940"
-    },
-    {
-      "id": "8229a3f8-6f5b-4a68-933b-e8e2d553cc9e",
-      "from": "b390f9a7-387d-4faf-85b0-7ee185c2f09d",
-      "to": "8c652cc1-4ded-45b5-b378-50a8abb77648"
-    },
-    {
-      "id": "d9f641ae-8fd9-44be-8933-610ca4acb419",
-      "from": "d091eafd-2b26-4cc5-9417-83e92b018706",
-      "to": "ee4926e1-21ff-48b1-a4e1-140308eac5be"
-    },
-    {
-      "id": "298db818-0b6b-48b2-b3bb-917bb15f5a9b",
-      "from": "60397838-62eb-4799-a645-277adda5522e",
-      "to": "b67cc485-d67e-4c81-bfbb-5ef219a35e66"
-    },
-    {
       "id": "fed087fd-dbb1-4560-99a1-3c5a5bcef102",
       "from": "ddbe3057-5677-4a1c-8d70-cb6339665a47",
       "to": "9fdeb70c-5873-4f61-94fd-6352e00eca66"
@@ -49,11 +19,6 @@
       "id": "e8f1bcf5-1d8b-49a3-a7e5-679e4d738198",
       "from": "466e118e-e766-47eb-8c91-807337f4fc3a",
       "to": "83359a4b-0f6a-4580-88d3-9ad37fb9c796"
-    },
-    {
-      "id": "a03f4abc-4c05-4d8e-b872-979672156fa9",
-      "from": "60397838-62eb-4799-a645-277adda5522e",
-      "to": "d06c910f-789e-4931-913b-a484ce1e27f5"
     },
     {
       "id": "2f41922d-5ace-470a-8183-55033381196a",
@@ -201,612 +166,52 @@
       "to": "43018873-73ac-4d15-b450-bef00ca3d386"
     },
     {
-      "id": "171900b1-781b-4ff9-ac51-501ea35d0bba",
-      "from": "bab0aad8-3f41-4298-b40c-c6bed3b48acf",
-      "to": "9fafd543-eb25-4dad-9897-8f7af7895ad5"
+      "id": "67fd3312-a7ee-4eba-9a22-b9b1263546cd",
+      "from": "c3623ba1-7646-4bea-81d4-4ea2dea781b1",
+      "to": "b70a3179-1e7e-463f-a419-b64936836b1d"
+    },
+    {
+      "id": "91f33550-0d1a-4b20-943c-fb68eb733006",
+      "from": "f2a4fac2-e721-4dbc-9f38-f2f9f31b6a07",
+      "to": "facd87e5-b997-40ff-b114-e9dd1f82bc52"
+    },
+    {
+      "id": "f04b0e24-f6f2-49d9-951d-ea2cad387215",
+      "from": "a66fc7f6-3bc7-41db-aa4c-01406d7e22e9",
+      "to": "f80368d6-dc2c-492d-8d19-2840da637f23"
+    },
+    {
+      "id": "86775e7f-7215-4517-9eba-33d454ccb9bd",
+      "from": "a812aa74-fceb-4c76-aef0-6123d8a6654a",
+      "to": "1e2f83e7-23c0-4a97-8fc4-2f829326fac8"
+    },
+    {
+      "id": "e82c2348-c3af-4b88-ab82-a9c80e80f40b",
+      "from": "a494150a-596e-4975-a263-f4d8055c27cc",
+      "to": "b67cc485-d67e-4c81-bfbb-5ef219a35e66"
+    },
+    {
+      "id": "9f575d61-7638-49dd-afc5-eddfc317bbe6",
+      "from": "a494150a-596e-4975-a263-f4d8055c27cc",
+      "to": "d06c910f-789e-4931-913b-a484ce1e27f5"
+    },
+    {
+      "id": "cf40d927-c096-454c-af2a-17869e792f24",
+      "from": "f0e60cd3-c942-47ce-b0d6-23d8e34b4431",
+      "to": "b80bf154-9d4f-41d6-b34f-5a877c8875c3"
+    },
+    {
+      "id": "0f4169f0-fa90-4a5e-b057-bfa9f9a9be6a",
+      "from": "9bee663e-ca8b-485d-8256-d019b8a4e6a7",
+      "to": "e4d12281-2bdd-4a5b-9e74-4733ee600d7e"
+    },
+    {
+      "id": "382898f6-a776-418e-9c2a-cfa31eb01379",
+      "from": "baab041a-8ff6-4303-98d9-ffd00ed64a35",
+      "to": "44303183-9170-4ba4-9493-8d31199af1f7"
     }
   ],
   "nodes": [
-    {
-      "id": "aaf5b048-9986-4a0e-8bf7-9940bf302598",
-      "name": "tvm_design_constant",
-      "class": "tvm_design_constant",
-      "ports": [
-        {
-          "base": "i_SubjectDirectory",
-          "editable": true,
-          "id": "a3b26940-6310-4987-aaa6-738317825ff3",
-          "input": true,
-          "inputPort": "95090337-bd8f-4a30-b241-abdbfae972cb",
-          "name": "i_SubjectDirectory",
-          "output": true,
-          "outputPort": "cddb14db-cc2d-4609-85d1-042cecfd91fe",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_DesignMatrix",
-          "editable": true,
-          "id": "b6ad573f-cd0f-4e54-8dd0-127f933b6788",
-          "input": true,
-          "inputPort": "2a9299ce-36dd-4258-8b8c-4eee8c181392",
-          "name": "i_DesignMatrix",
-          "output": true,
-          "outputPort": "eb34f75b-3b57-46a5-ba1e-29569ac9f5ff",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "o_DesignMatrix",
-          "editable": true,
-          "id": "43e423a7-de27-493a-99de-a7ef2168a7e0",
-          "input": false,
-          "inputPort": false,
-          "name": "o_DesignMatrix",
-          "output": true,
-          "outputPort": "536a5bdf-70f1-40a5-94b6-b851bce921e0",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        }
-      ],
-      "position": [
-        -1897.4079536838026,
-        347.2381978265023
-      ],
-      "code": [
-        {
-          "language": "TvM",
-          "comment": "",
-          "argument": {
-            "name": "tvm_design_constant"
-          }
-        }
-      ],
-      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
-      "colour": "#1C6DF6"
-    },
-    {
-      "id": "574bbf56-d9a5-4e66-b50e-b1033914ef55",
-      "name": "tvm_design_stimulus",
-      "class": "tvm_design_stimulus",
-      "ports": [
-        {
-          "base": "i_SubjectDirectory",
-          "editable": true,
-          "id": "d983b383-7703-44c8-8b49-69606d7f05a8",
-          "input": true,
-          "inputPort": "74fdb0ec-26ee-442e-9375-0273f55f89bc",
-          "name": "i_SubjectDirectory",
-          "output": true,
-          "outputPort": "b89e2940-2a1e-484e-9214-5bf6f81c9d21",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_DesignMatrix",
-          "editable": true,
-          "id": "0e2f30ce-b58f-4682-b321-0918c691f620",
-          "input": true,
-          "inputPort": "9fafd543-eb25-4dad-9897-8f7af7895ad5",
-          "name": "i_DesignMatrix",
-          "output": true,
-          "outputPort": "88bddf1a-07dc-4928-ad2c-b1f9468f38da",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Stimulus",
-          "editable": true,
-          "id": "51450e71-729d-4c39-be5e-1d6b35d985fb",
-          "input": true,
-          "inputPort": "bc75a008-e1e3-46f6-84f6-daf4ebe2bd79",
-          "name": "i_Stimulus",
-          "output": true,
-          "outputPort": "5ae1dfa8-0872-40b0-88c1-e5fc1fdf634d",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_HrfParameters",
-          "editable": true,
-          "id": "b45f88ae-e347-4a73-a445-2cd65d80c348",
-          "input": true,
-          "inputPort": "d914100b-5107-4743-bf77-83d36a9741df",
-          "name": "i_HrfParameters",
-          "output": true,
-          "outputPort": "ec439c05-e84c-4cae-828a-4969813f8bc3",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Labels",
-          "editable": true,
-          "id": "94fa87d2-ad31-488f-a72a-7c2e10a85ddf",
-          "input": true,
-          "inputPort": "65bbd72b-4aac-4598-984c-b8505cfc2f4b",
-          "name": "i_Labels",
-          "output": true,
-          "outputPort": "db0449bc-9a5e-499c-a5c9-c54ca087b301",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_TR",
-          "editable": true,
-          "id": "ff46d2b0-fd9e-42ff-8e34-1f019e1c2415",
-          "input": true,
-          "inputPort": "0f188f48-8e03-4c4b-a05c-2f192dac4143",
-          "name": "i_TR",
-          "output": true,
-          "outputPort": "7e94ff9a-5ac5-48ad-b7b0-462c687f8aea",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_TemporalDerivative",
-          "editable": true,
-          "id": "622d5f44-59e8-4bc4-a208-ad23e7cc621a",
-          "input": true,
-          "inputPort": "13dface2-fc97-4ed9-b57c-bb3226690740",
-          "name": "i_TemporalDerivative",
-          "output": true,
-          "outputPort": "cc5043f2-eb5d-4f3d-9032-5c54ea9e6a31",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_DispersionDerivative",
-          "editable": true,
-          "id": "16bd11e9-60ed-400e-818d-de71097baa81",
-          "input": true,
-          "inputPort": "14130fdf-36d9-471e-8163-822938b066c2",
-          "name": "i_DispersionDerivative",
-          "output": true,
-          "outputPort": "5cafe7d2-e1a4-48fe-b152-058365f72bec",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_DiagonaliseElements",
-          "editable": true,
-          "id": "ea70f6db-8e89-4d9f-b6bb-4b6cbc331223",
-          "input": true,
-          "inputPort": "57ddcb34-71e8-489c-b029-08a61df65a5b",
-          "name": "i_DiagonaliseElements",
-          "output": true,
-          "outputPort": "12133ba4-b17a-4a7d-9faa-1e4cca185101",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "o_DesignMatrix",
-          "editable": true,
-          "id": "a9ccb770-8732-49da-b95e-706272b61c74",
-          "input": false,
-          "inputPort": false,
-          "name": "o_DesignMatrix",
-          "output": true,
-          "outputPort": "0e34db0a-d81c-4ce1-a43e-57f99ea17b9d",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        }
-      ],
-      "position": [
-        -2214.663591865782,
-        274.33203914155297
-      ],
-      "code": [
-        {
-          "language": "TvM",
-          "comment": "",
-          "argument": {
-            "name": "tvm_design_stimulus"
-          }
-        }
-      ],
-      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
-      "colour": "#1C6DF6"
-    },
-    {
-      "id": "1d6b3690-2adb-4803-aa2d-a79cd46963c4",
-      "name": "tvm_design_highpassFilter",
-      "class": "tvm_design_highpassFilter",
-      "ports": [
-        {
-          "base": "i_SubjectDirectory",
-          "editable": true,
-          "id": "a53627ca-49c7-4e26-953c-7f9994b04713",
-          "input": true,
-          "inputPort": "3b103080-5b8b-4b6a-af5e-7f4a40ee1f70",
-          "name": "i_SubjectDirectory",
-          "output": true,
-          "outputPort": "c2309ff5-f725-458f-b590-1d8ca73d8833",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_DesignMatrix",
-          "editable": true,
-          "id": "274f1a73-5dd8-4d3c-9653-95ecaea68b75",
-          "input": true,
-          "inputPort": "1292febd-8a25-4a02-b080-142efc5599b9",
-          "name": "i_DesignMatrix",
-          "output": true,
-          "outputPort": "9689e3ed-a6b1-4200-8fc7-296fdda8214a",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_CutOffFrequency",
-          "editable": true,
-          "id": "901a4a00-239a-495d-afa5-3d4630763938",
-          "input": true,
-          "inputPort": "4b88fae9-b73f-4692-bf07-c594acfb3b68",
-          "name": "i_CutOffFrequency",
-          "output": true,
-          "outputPort": "54463a3c-dce9-4f81-8c61-9740a72a010c",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_TR",
-          "editable": true,
-          "id": "a239374a-93d4-4b6e-bbd7-42f67e7cc338",
-          "input": true,
-          "inputPort": "9817287d-39ff-4e38-b8a3-93e6f03f1793",
-          "name": "i_TR",
-          "output": true,
-          "outputPort": "211f7605-e4cc-496d-bd93-659fec57028b",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "o_DesignMatrix",
-          "editable": true,
-          "id": "5a8324e6-05f2-44b6-b9fb-b9edd6238452",
-          "input": false,
-          "inputPort": false,
-          "name": "o_DesignMatrix",
-          "output": true,
-          "outputPort": "2c4e2f14-9110-4052-b2eb-e458c467831f",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        }
-      ],
-      "position": [
-        -1577.7355944956973,
-        339.92858752221144
-      ],
-      "code": [
-        {
-          "language": "TvM",
-          "comment": "",
-          "argument": {
-            "name": "tvm_design_highpassFilter"
-          }
-        }
-      ],
-      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
-      "colour": "#1C6DF6"
-    },
-    {
-      "id": "2eacd271-ec7d-4050-962f-52793de82896",
-      "name": "tvm_design_motionRegression",
-      "class": "tvm_design_motionRegression",
-      "ports": [
-        {
-          "base": "i_SubjectDirectory",
-          "editable": true,
-          "id": "25457ba7-6c03-48ca-8c65-790da6f7749f",
-          "input": true,
-          "inputPort": "5bb03431-2ed1-4505-a1c1-8a5490c539ee",
-          "name": "i_SubjectDirectory",
-          "output": true,
-          "outputPort": "fb603f9f-0823-4709-9602-36423f688f8c",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_DesignMatrix",
-          "editable": true,
-          "id": "d643ece3-2bbe-4ba8-bbd6-f14e5f0f8444",
-          "input": true,
-          "inputPort": "a3745faf-7dde-468b-b700-ad53b5b8f940",
-          "name": "i_DesignMatrix",
-          "output": true,
-          "outputPort": "5d8be8c1-7cf4-4936-8c43-4dca27d75188",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_MotionFiles",
-          "editable": true,
-          "id": "f00044d7-6f43-4e61-923c-b3036dc356e4",
-          "input": true,
-          "inputPort": "92a6adbc-5fc9-4cc0-936d-45fb2726e6e9",
-          "name": "i_MotionFiles",
-          "output": true,
-          "outputPort": "f5e48a19-e6d3-48c9-867e-1d113e57f8a5",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "o_DesignMatrix",
-          "editable": true,
-          "id": "1a04618c-3a9e-42e7-9fbe-e6ad317e886f",
-          "input": false,
-          "inputPort": false,
-          "name": "o_DesignMatrix",
-          "output": true,
-          "outputPort": "b390f9a7-387d-4faf-85b0-7ee185c2f09d",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        }
-      ],
-      "position": [
-        -1185.1571891717597,
-        377.3224052987619
-      ],
-      "code": [
-        {
-          "language": "TvM",
-          "comment": "",
-          "argument": {
-            "name": "tvm_design_motionRegression"
-          }
-        }
-      ],
-      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
-      "colour": "#1C6DF6"
-    },
-    {
-      "id": "e9531857-0fc4-4da3-90dc-f4e42b57a366",
-      "name": "tvm_design_retroicor",
-      "class": "tvm_design_retroicor",
-      "ports": [
-        {
-          "base": "i_SubjectDirectory",
-          "editable": true,
-          "id": "9c240d8d-0409-4753-9507-e546fe1d7f70",
-          "input": true,
-          "inputPort": "c37011be-ce62-4f52-a423-a7975d14db2e",
-          "name": "i_SubjectDirectory",
-          "output": true,
-          "outputPort": "9106eb94-55a1-4552-b787-4cd638140e0d",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_DesignMatrix",
-          "editable": true,
-          "id": "b3ca8125-219d-4d68-9eaf-d05141eebed0",
-          "input": true,
-          "inputPort": "8c652cc1-4ded-45b5-b378-50a8abb77648",
-          "name": "i_DesignMatrix",
-          "output": true,
-          "outputPort": "efcbe563-83ec-491e-8b57-80985da1f5f7",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_PhysioFiles",
-          "editable": true,
-          "id": "12555275-2774-490f-9223-1b1d6664acb5",
-          "input": true,
-          "inputPort": "2ac291e4-8d0f-48a8-9a1e-ae68a75b11be",
-          "name": "i_PhysioFiles",
-          "output": true,
-          "outputPort": "0f51c001-8cd8-437a-a710-5a53118bf4e3",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_ScanTriggers",
-          "editable": true,
-          "id": "a647ead1-c129-4a85-82bc-2ff934a26801",
-          "input": true,
-          "inputPort": "1895dd8f-5a67-4e1a-b129-0b3a18e97d36",
-          "name": "i_ScanTriggers",
-          "output": true,
-          "outputPort": "73502a20-65c2-4c4d-b5ac-8365208e7b18",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Order",
-          "editable": true,
-          "id": "5584e3e2-246e-4a58-8fec-de0c19555fde",
-          "input": true,
-          "inputPort": "12705723-4443-419e-b5dd-453b328fee54",
-          "name": "i_Order",
-          "output": true,
-          "outputPort": "a4fe08e4-03e7-4cc6-8e2e-f5641c930911",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Type",
-          "editable": true,
-          "id": "bb995b19-b1c4-410d-8bd7-b31da4cefe9e",
-          "input": true,
-          "inputPort": "0d825a30-c0bc-452e-aced-fd58732ee3ae",
-          "name": "i_Type",
-          "output": true,
-          "outputPort": "05c3d502-e473-4146-b4e5-93ff8366b7cc",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "o_DesignMatrix",
-          "editable": true,
-          "id": "28c7d943-8dd3-494d-9534-8f60b606f589",
-          "input": false,
-          "inputPort": false,
-          "name": "o_DesignMatrix",
-          "output": true,
-          "outputPort": "d091eafd-2b26-4cc5-9417-83e92b018706",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        }
-      ],
-      "position": [
-        -769.8042997513206,
-        381.8703911198125
-      ],
-      "code": [
-        {
-          "language": "TvM",
-          "comment": "",
-          "argument": {
-            "name": "tvm_design_retroicor"
-          }
-        }
-      ],
-      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
-      "colour": "#1C6DF6"
-    },
-    {
-      "id": "6915cc1b-ae18-438d-b599-0b284e0ea19e",
-      "name": "tvm_design_retroicor_1",
-      "class": "tvm_design_retroicor",
-      "ports": [
-        {
-          "base": "i_SubjectDirectory",
-          "editable": true,
-          "id": "5b0b1e09-e09e-41d5-ba8f-ef50abdaf4f4",
-          "input": true,
-          "inputPort": "bf99ab21-e949-4d9e-82a1-6e2c39a2be56",
-          "name": "i_SubjectDirectory",
-          "output": true,
-          "outputPort": "0d672cdd-ea25-43aa-bc38-902fa947803b",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_DesignMatrix",
-          "editable": true,
-          "id": "ff6cd733-d8c2-40fc-ab90-42814f159a70",
-          "input": true,
-          "inputPort": "ee4926e1-21ff-48b1-a4e1-140308eac5be",
-          "name": "i_DesignMatrix",
-          "output": true,
-          "outputPort": "f934094a-8422-4a3b-9ffb-05ec1899b00f",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_PhysioFiles",
-          "editable": true,
-          "id": "8a8430b9-7004-4c5d-b5db-31e03533a0d7",
-          "input": true,
-          "inputPort": "da0b88d2-cf28-483a-b66a-aa1619510fd8",
-          "name": "i_PhysioFiles",
-          "output": true,
-          "outputPort": "9f19968c-75e8-4ed7-8009-8e67ee203421",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_ScanTriggers",
-          "editable": true,
-          "id": "98d1863e-d1ab-45a3-8024-496713882ac1",
-          "input": true,
-          "inputPort": "3a228b5e-4cc1-40da-9495-823a1a673d2f",
-          "name": "i_ScanTriggers",
-          "output": true,
-          "outputPort": "90dc495f-0a52-4968-bc05-3412fcf62748",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Order",
-          "editable": true,
-          "id": "91dca7f4-613b-464e-b9bb-4a9271fe4920",
-          "input": true,
-          "inputPort": "54477207-d4f2-44a4-baa6-dcc4512b578e",
-          "name": "i_Order",
-          "output": true,
-          "outputPort": "434c8e65-f580-40b3-9191-96eec9b0a5c6",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Type",
-          "editable": true,
-          "id": "bee0fea1-8a37-481b-a352-f539c3e825eb",
-          "input": true,
-          "inputPort": "8d25e2ae-cf08-47f1-8f9b-a768a44ac145",
-          "name": "i_Type",
-          "output": true,
-          "outputPort": "d8cca8ac-553d-4f7c-8531-9e8f2b719420",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "o_DesignMatrix",
-          "editable": true,
-          "id": "0a6ee581-4cb3-402e-88f9-41f4e4eaefb4",
-          "input": false,
-          "inputPort": false,
-          "name": "o_DesignMatrix",
-          "output": true,
-          "outputPort": "60397838-62eb-4799-a645-277adda5522e",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        }
-      ],
-      "position": [
-        -444.5484262119845,
-        412.3947241512608
-      ],
-      "code": [
-        {
-          "language": "TvM",
-          "comment": "",
-          "argument": {
-            "name": "tvm_design_retroicor"
-          }
-        }
-      ],
-      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
-      "colour": "#1C6DF6"
-    },
     {
       "id": "38079a05-cb98-4a22-9af3-303eb23634f3",
       "name": "tvm_regressConfounds",
@@ -3662,8 +3067,8 @@
         }
       ],
       "position": [
-        -2526.523013736839,
-        338.26371856039907
+        -2877.245669986839,
+        350.1333779842272
       ],
       "code": [
         {
@@ -3671,6 +3076,1000 @@
           "comment": "",
           "argument": {
             "name": "tvm_design_empty"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
+      "colour": "#4E76BA"
+    },
+    {
+      "id": "f9dea95d-990f-439f-bb9f-820d23a9c191",
+      "name": "tvm_design_stimulus_1",
+      "class": "tvm_design_stimulus",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "547242fa-8376-4796-a700-ed05c484ca1e",
+          "input": true,
+          "inputPort": "11a4a85b-edf6-4989-bea0-edc2ac1c1fc6",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "3944038d-43be-44da-a586-8d7d373f8f27",
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "i_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "69423843-d31a-4e39-9c93-4610d43653c8",
+          "input": true,
+          "inputPort": "b70a3179-1e7e-463f-a419-b64936836b1d",
+          "name": "i_DesignMatrix",
+          "output": true,
+          "outputPort": "1dd36206-1c4f-418c-84da-8107ca4bb61f",
+          "value": "'DesignMatrix/design1.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Stimulus",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Stimulus"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "72f59692-e01b-4eda-b796-e33612b1d097",
+          "input": true,
+          "inputPort": "adf3183e-5d81-48a0-9681-91d9aa576e4c",
+          "name": "i_Stimulus",
+          "output": true,
+          "outputPort": "9f360b0e-6119-4038-b21a-be4a1d91cfb5",
+          "value": "{'Stimulus/STIM_RightOn.mat', 'Stimulus/STIM_RightOff.mat', 'Stimulus/STIM_LeftOn.mat', 'Stimulus/STIM_LeftOff.mat'}",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_HrfParameters",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_HrfParameters"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "b29170ab-7ef0-4625-9096-2f09f4537db2",
+          "input": true,
+          "inputPort": "1f2a8e7d-a5c6-4ecc-9dfb-34b9b868c19c",
+          "name": "i_HrfParameters",
+          "output": true,
+          "outputPort": "20bcd1fc-a41a-4833-b81c-6a89ff8492d0",
+          "value": "[5, 10, 0.5, 0.5, 2, 0, 32]",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Labels",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Labels"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "607ea487-273e-45c9-9fbc-ebaa542bf111",
+          "input": true,
+          "inputPort": "56ab16b3-4ca8-46fc-9332-43034efeacf5",
+          "name": "i_Labels",
+          "output": true,
+          "outputPort": "a23d234b-7c46-425b-b0d9-670486b5ad3f",
+          "value": "{'Stimulus_{Right,On}', 'Stimulus_{Right,Off}', 'Stimulus_{Left,On}', 'Stimulus_{Left,Off}'}",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_TR",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_TR"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "49148440-142f-4d45-a55e-16a26f557b36",
+          "input": true,
+          "inputPort": "14bd0c6e-31dc-4bfa-8f56-16379370c6f2",
+          "name": "i_TR",
+          "output": true,
+          "outputPort": "b06a5103-8755-4829-b6e3-a799a6bf9ca8",
+          "value": "3.06",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_TemporalDerivative",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_TemporalDerivative"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "bf58726b-ce23-4cb9-9cee-f8555704d7d8",
+          "input": true,
+          "inputPort": "33667790-f6ae-4139-bfeb-bb285a5d0018",
+          "name": "i_TemporalDerivative",
+          "output": true,
+          "outputPort": "644117c0-9ade-4792-8b62-620f2011cfd7",
+          "value": "false",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_DispersionDerivative",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DispersionDerivative"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "3beeefc6-7dcd-4585-8a59-5f0edb6207bf",
+          "input": true,
+          "inputPort": "f3589d2c-8a4c-4ed6-9468-081f97db723e",
+          "name": "i_DispersionDerivative",
+          "output": true,
+          "outputPort": "b5d8fdd4-7954-4303-b838-76048859aaea",
+          "value": "false",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_DiagonaliseElements",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DiagonaliseElements"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "03015ada-f6a3-4b90-96a2-eb6a24ba949c",
+          "input": true,
+          "inputPort": "9ff86c0f-1d3f-4bb4-b2ab-70272f8bcbb0",
+          "name": "i_DiagonaliseElements",
+          "output": true,
+          "outputPort": "9f631452-6224-43c6-a240-22c6aedc8235",
+          "value": "true",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "1441f6fd-dddc-4141-b51e-d5cbe619f297",
+          "input": false,
+          "inputPort": false,
+          "name": "o_DesignMatrix",
+          "output": true,
+          "outputPort": "f2a4fac2-e721-4dbc-9f38-f2f9f31b6a07",
+          "value": "'DesignMatrix/design2.mat'",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        -2595.405160853558,
+        237.16856410874368
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_design_stimulus"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
+      "colour": "#4E76BA"
+    },
+    {
+      "id": "60f64a00-c029-4a32-924a-e15c328eacd7",
+      "name": "tvm_design_constant_1",
+      "class": "tvm_design_constant",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "9fa5b357-8dc4-4c9c-9b4c-673d2c6bcf71",
+          "input": true,
+          "inputPort": "dcf5ad8b-52ea-46bf-8415-eb65c4db1486",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "a2113f0f-e00f-4122-a883-1dd9056dc173",
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "i_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "fa95810f-4c0d-4d12-9064-2a0d24639574",
+          "input": true,
+          "inputPort": "facd87e5-b997-40ff-b114-e9dd1f82bc52",
+          "name": "i_DesignMatrix",
+          "output": true,
+          "outputPort": "33e4dff9-0335-4783-a745-75bcd1245c05",
+          "value": "'DesignMatrix/design2.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "398816bc-fffb-47c7-bf2a-0a926a5ed89f",
+          "input": false,
+          "inputPort": false,
+          "name": "o_DesignMatrix",
+          "output": true,
+          "outputPort": "f0e60cd3-c942-47ce-b0d6-23d8e34b4431",
+          "value": "'DesignMatrix/design3.mat'",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        -2258.173341329853,
+        380.4827716890982
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_design_constant"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
+      "colour": "#4E76BA"
+    },
+    {
+      "id": "3e753faa-138d-4f5f-b92f-a0542c89e6e2",
+      "name": "tvm_design_highpass_filter",
+      "class": "tvm_design_highpassFilter",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "cca45974-ba2b-4ed2-9670-f61488259f67",
+          "input": true,
+          "inputPort": "5509eb67-d73e-403d-8916-13403daddd52",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "15d1bd1b-fbfa-42db-9b12-a0e8bfef30ee",
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "i_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "5ce5b959-0ca2-498a-ba66-e5dcb9bba7b6",
+          "input": true,
+          "inputPort": "e4d12281-2bdd-4a5b-9e74-4733ee600d7e",
+          "name": "i_DesignMatrix",
+          "output": true,
+          "outputPort": "5cc05f5c-dfea-4edd-8509-29c176797445",
+          "value": "'DesignMatrix/basic_design.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_CutOffFrequency",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_CutOffFrequency"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "db88ea34-4b87-448e-b185-05027e099c05",
+          "input": true,
+          "inputPort": "3e971f84-c35e-44b2-8203-05379b92b6e3",
+          "name": "i_CutOffFrequency",
+          "output": true,
+          "outputPort": "19df04a7-850d-451d-a4b6-9291517546d9",
+          "value": "1/100",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_TR",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_TR"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "b42c6caf-94a9-4248-ab04-7f1486a9a102",
+          "input": true,
+          "inputPort": "78b2ff68-ff05-4d15-ac20-c9891b3d1ce4",
+          "name": "i_TR",
+          "output": true,
+          "outputPort": "8c881ef6-27e7-4be9-9940-e5a8eff7478b",
+          "value": "3.06",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "845020db-68b1-45f9-8a12-df3d359b2d4b",
+          "input": false,
+          "inputPort": false,
+          "name": "o_DesignMatrix",
+          "output": true,
+          "outputPort": "baab041a-8ff6-4303-98d9-ffd00ed64a35",
+          "value": "'DesignMatrix/design4.mat'",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        -1587.898199666832,
+        385.7994255500379
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_design_highpassFilter"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
+      "colour": "#4E76BA"
+    },
+    {
+      "id": "cfe24065-c173-47b7-9cf2-63ab207511e6",
+      "name": "tvm_design_motion_regression",
+      "class": "tvm_design_motionRegression",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "3fbf1662-50fb-4956-bba0-3dae100e9181",
+          "input": true,
+          "inputPort": "3935b5ed-7017-41f8-93b5-4c0a47a70ab7",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "dacaa39f-542a-46b5-b5c6-a12cf7c28b1e",
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "i_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "3a92a3aa-7c39-475b-aac7-c1aaa5aad38b",
+          "input": true,
+          "inputPort": "44303183-9170-4ba4-9493-8d31199af1f7",
+          "name": "i_DesignMatrix",
+          "output": true,
+          "outputPort": "fb889723-11cf-49bf-9457-12d7fe480939",
+          "value": "'DesignMatrix/design4.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_MotionFiles",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_MotionFiles"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "393f16a9-afac-4ccd-b88c-0dc3b9bba2a1",
+          "input": true,
+          "inputPort": "65df029a-9d1d-40c2-aabb-cbe060d0e83e",
+          "name": "i_MotionFiles",
+          "output": true,
+          "outputPort": "f8d3d7f9-4956-40f1-983d-eadc033914f1",
+          "value": "'Scans/Functional/Realigned/rp_EP3D_*.txt'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "51801c26-7f17-441f-bb8f-7811cf8d43a3",
+          "input": false,
+          "inputPort": false,
+          "name": "o_DesignMatrix",
+          "output": true,
+          "outputPort": "a66fc7f6-3bc7-41db-aa4c-01406d7e22e9",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        -1197.693347933519,
+        432.8514033963954
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_design_motionRegression"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
+      "colour": "#4E76BA"
+    },
+    {
+      "id": "c3665b15-a6d0-4495-8eb3-05930d13b465",
+      "name": "tvm_design_retroicor_2",
+      "class": "tvm_design_retroicor",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "de652c92-64b0-4e02-8b05-d5a0521b91a8",
+          "input": true,
+          "inputPort": "478b3834-9589-4ee5-8821-3e85956618f0",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "0684fb52-6783-449c-8298-db7a3ade9b15",
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "i_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "25a41d8c-4800-4dab-89e9-47f01c959a37",
+          "input": true,
+          "inputPort": "f80368d6-dc2c-492d-8d19-2840da637f23",
+          "name": "i_DesignMatrix",
+          "output": true,
+          "outputPort": "bdf56e3e-d3ea-47bb-a986-d9f138b2abc7",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_PhysioFiles",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_PhysioFiles"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "1d1b7ee8-0e8c-4bd7-8f8e-8ca6865a9651",
+          "input": true,
+          "inputPort": "54a74c91-33a1-41e0-b325-650dd8c0d2e6",
+          "name": "i_PhysioFiles",
+          "output": true,
+          "outputPort": "9d7fd61a-0c4a-4802-bb5a-0fe76bba606b",
+          "value": "'Scans/PhysioLog/Resp*.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_ScanTriggers",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_ScanTriggers"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "c1295d08-f984-45ff-bc0d-b9759c9f1d69",
+          "input": true,
+          "inputPort": "9e531a85-1bb5-41f8-b287-12fc61288a0f",
+          "name": "i_ScanTriggers",
+          "output": true,
+          "outputPort": "324c9246-5646-430b-aaae-56e8e560ce82",
+          "value": "'Scans/TimeStamps/Run*'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Order",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Order"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "c69dfe92-1120-4939-9e0b-c9d76eb37953",
+          "input": true,
+          "inputPort": "c9efb671-1af9-419b-8d86-638e10ef65b6",
+          "name": "i_Order",
+          "output": true,
+          "outputPort": "af490d2d-269f-4c89-8361-8672cf71119c",
+          "value": "5",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Type",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Type"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "b401a7e4-f7ec-4820-8882-c8502211edea",
+          "input": true,
+          "inputPort": "dab35ae9-7b2b-48a8-9e3e-0ce2e400daf9",
+          "name": "i_Type",
+          "output": true,
+          "outputPort": "b14e65e3-bfd8-4822-9e05-30468cf9fab3",
+          "value": "'Respiration'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "a41a38e0-3e81-47f9-88af-e2f730690620",
+          "input": false,
+          "inputPort": false,
+          "name": "o_DesignMatrix",
+          "output": true,
+          "outputPort": "a812aa74-fceb-4c76-aef0-6123d8a6654a",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        -773.8422866158636,
+        397.6604918384562
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_design_retroicor"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
+      "colour": "#4E76BA"
+    },
+    {
+      "id": "b7f737d1-f079-472d-af77-5df10045c145",
+      "name": "tvm_design_retroicor_3",
+      "class": "tvm_design_retroicor",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "bad4734f-b820-4e7e-a1fc-e4cfe4957ff4",
+          "input": true,
+          "inputPort": "012623f0-9478-4499-b1c4-9b104b8473ba",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "7413557b-3604-4f53-82e9-383b648730a9",
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "i_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "2c76683e-090d-41bb-a356-03f5f842dc16",
+          "input": true,
+          "inputPort": "1e2f83e7-23c0-4a97-8fc4-2f829326fac8",
+          "name": "i_DesignMatrix",
+          "output": true,
+          "outputPort": "8eab3dcd-0078-41d4-ba62-c6d68c0097f3",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_PhysioFiles",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_PhysioFiles"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "2ba7579f-0fed-4a3f-a6b6-c95d7e11cad4",
+          "input": true,
+          "inputPort": "2b1fd2a7-5d22-4cc7-b4a1-12ab00d0c7a1",
+          "name": "i_PhysioFiles",
+          "output": true,
+          "outputPort": "4c7b4b06-1d48-41be-9e14-10bd7cc6335b",
+          "value": "'Scans/PhysioLog/Puls*.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_ScanTriggers",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_ScanTriggers"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "ede4ac3d-87b7-4818-ad8f-52ab8d46d33c",
+          "input": true,
+          "inputPort": "739134ee-5f83-4a5d-b17d-c225c6eb428d",
+          "name": "i_ScanTriggers",
+          "output": true,
+          "outputPort": "fb5e86da-3c55-4572-b1ee-4734d54add4c",
+          "value": "'Scans/TimeStamps/Run*'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Order",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Order"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "19f91157-9801-4bec-b90f-e7b7d227f790",
+          "input": true,
+          "inputPort": "d78abd2a-3020-4796-a34a-ce0337977b45",
+          "name": "i_Order",
+          "output": true,
+          "outputPort": "2800de29-3b14-4cb5-9218-58a10b70d690",
+          "value": "5",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Type",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Type"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "6afe732a-260b-4dbc-bc25-0aa76a6526cf",
+          "input": true,
+          "inputPort": "4c242857-e524-407a-91d5-305e67fbf722",
+          "name": "i_Type",
+          "output": true,
+          "outputPort": "0fe9e0c0-c093-4d2e-81c3-984b06a30f53",
+          "value": "'Heartbeat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "14411b3d-07f5-4fd1-a1f8-eb704589fbd6",
+          "input": false,
+          "inputPort": false,
+          "name": "o_DesignMatrix",
+          "output": true,
+          "outputPort": "a494150a-596e-4975-a263-f4d8055c27cc",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        -412.57376143928605,
+        430.22224852879924
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_design_retroicor"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
+      "colour": "#4E76BA"
+    },
+    {
+      "id": "da17cf70-654c-4a1a-9117-36077d1996d8",
+      "name": "tvm_design_remove_volumes",
+      "class": "tvm_design_removeVolumes",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "0c742e72-038e-4ad0-9612-b43914556f0f",
+          "input": true,
+          "inputPort": "6e7cfaff-d216-49a0-b7a4-c8d9d1ee1aba",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "b6e31ac1-c9c2-44f8-b579-ab20c77d6192",
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "i_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "a3b0e4ff-239d-4bca-982d-d6f68c2ae4f8",
+          "input": true,
+          "inputPort": "b80bf154-9d4f-41d6-b34f-5a877c8875c3",
+          "name": "i_DesignMatrix",
+          "output": true,
+          "outputPort": "8a7f5d28-b7ed-4883-9232-81af07fe595c",
+          "value": "'DesignMatrix/design3.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Deletions",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Deletions"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "9ac0831e-ff59-4a1e-8ce8-e71d5dda7b8b",
+          "input": true,
+          "inputPort": "2d6624fe-3b77-418d-9226-f3922b7a1260",
+          "name": "i_Deletions",
+          "output": true,
+          "outputPort": "ef9a6b54-39bf-4afb-a9bb-8a9befd346b4",
+          "value": "{1:3, 1:3, 1:3, 1:3, 1:3, 1:3}",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "375f6d17-669a-4f7b-b4c9-ced569499209",
+          "input": false,
+          "inputPort": false,
+          "name": "o_DesignMatrix",
+          "output": true,
+          "outputPort": "9bee663e-ca8b-485d-8256-d019b8a4e6a7",
+          "value": "'DesignMatrix/basic_design.mat'",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        -1945.5252553318755,
+        397.8025752770268
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_design_removeVolumes"
           }
         }
       ],
