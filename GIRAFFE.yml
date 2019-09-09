@@ -1,7 +1,11 @@
 # list of tools
 tools:
-  porcupine:
+  workflow:
     files:
       - GIRAFFE/pipeline.pork
     nodes:
       - https://raw.githubusercontent.com/TimVanMourik/OpenFmriAnalysis/master/GIRAFFE/tvm_nodes.json
+    grammars:
+      - language: TvM
+        script: https://raw.githubusercontent.com/TimVanMourik/OpenFmriAnalysis/master/GIRAFFE/tvm.js
+        format: matlab
