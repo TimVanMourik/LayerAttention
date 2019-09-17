@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/193882061.svg)](https://zenodo.org/badge/latestdoi/193882061)
+
+
 This is an example of an analysis repository. The content of this repository is automatically visualised by https://giraffe.tools. Find the main project in https://giraffe.tools/github/TimVanMourik/GiraffeTools.
 
 ## Usage:
