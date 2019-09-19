@@ -59,69 +59,120 @@ configuration.o_DesignMatrix = 'DesignMatrix/basic_design.mat';
 tvm_design_removeVolumes(configuration);
 
 configuration = [];
+configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
+configuration.i_FunctionalFolder = 'Scans/Functional/Realigned';
 tvm_regressConfounds(configuration);
 
 configuration = [];
+configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 tvm_glm(configuration);
 
 configuration = [];
+configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 tvm_glmToTMap(configuration);
 
 configuration = [];
+configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 tvm_glmToTMap(configuration);
 
 configuration = [];
 tvm_smoothFunctionals(configuration);
 
 configuration = [];
+configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 tvm_retroicorBackProject(configuration);
 
 configuration = [];
 tvm_movieFrom4D(configuration);
 
 configuration = [];
+configuration.i_SourceDirectory = 'Scans/Functional/NifTI';
+configuration.o_OutputDirectory = 'Scans/Functional/Realigned';
+configuration.o_MeanFunctional = 'Scans/Functional/MeanFunctional.nii';
 tvm_realignFunctionals(configuration);
 
 configuration = [];
+configuration.o_FreeSurferFolder = '../Doreti';
 tvm_reconAll(configuration);
 
 configuration = [];
+configuration.i_RegistrationVolume = 'Scans/Functional/MeanFunctional.nii';
+configuration.i_FreeSurferFolder = '../Doreti';
+configuration.i_DegreesOfFreedom = 12;
+configuration.o_Boundaries = 'Boundaries/bbregister.mat';
+configuration.o_RegisterDat = 'Coregistration/FreeSurfer/bbregister.dat';
+configuration.o_CoregistrationMatrix = 'Coregistration/bbregister.mat';
 tvm_useBbregister(configuration);
 
 configuration = [];
+configuration.i_ReferenceVolume = 'Scans/Functional/MeanFunctional.nii';
+configuration.i_Boundaries = 'Boundaries/bbregister.mat';
+configuration.o_Boundaries = 'Boundaries/rbr.mat';
 tvm_recursiveBoundaryRegistration(configuration);
 
 configuration = [];
+configuration.i_Boundaries = 'Boundaries/rbr.mat';
+configuration.o_ObjWhite = 'LevelSets/?h.white.obj';
+configuration.o_ObjPial = 'LevelSets/?h.pial.obj';
 tvm_boundariesToObj(configuration);
 
 configuration = [];
+configuration.i_ReferenceVolume = 'Scans/Functional/MeanFunctional.nii';
+configuration.i_Boundaries = 'Boundaries/bbregister.mat';
+configuration.i_Axis = 'transversal';
+configuration.o_RegistrationMovie = '../Coregistration/BBR.avi';
 tvm_volumeWithBoundariesToMovie(configuration);
 
 configuration = [];
+configuration.i_ReferenceVolume = 'Scans/Functional/MeanFunctional.nii';
+configuration.i_Boundaries = 'Boundaries/rbr.mat';
+configuration.i_Axis = 'transversal';
+configuration.o_RegistrationMovie = '../Coregistration/RBR.avi';
 tvm_volumeWithBoundariesToMovie(configuration);
 
 configuration = [];
+configuration.i_ReferenceVolume = 'Scans/Functional/MeanFunctional.nii';
+configuration.i_ObjWhite = 'LevelSets/?h.white.obj';
+configuration.i_ObjPial = 'LevelSets/?h.pial.obj';
+configuration.o_SdfWhite = 'LevelSets/?h.white.sdf.nii';
+configuration.o_SdfPial = 'LevelSets/?h.pial.sdf.nii';
+configuration.o_White = 'LevelSets/brain.white.sdf.nii';
+configuration.o_Pial = 'LevelSets/brain.pial.sdf.nii';
 tvm_makeLevelSet(configuration);
 
 configuration = [];
+configuration.i_White = 'LevelSets/brain.white.sdf.nii';
+configuration.i_Pial = 'LevelSets/brain.pial.sdf.nii';
+configuration.o_LaplacePotential = 'LevelSets/LaplacePotential.nii';
 tvm_laplacePotentials(configuration);
 
 configuration = [];
+configuration.i_Potential = 'LevelSets/LaplacePotential.nii';
+configuration.o_Gradient = 'LevelSets/brain.gradient.nii';
 tvm_gradient(configuration);
 
 configuration = [];
+configuration.i_VectorField = 'LevelSets/brain.gradient.nii';
+configuration.o_Divergence = 'LevelSets/brain.curvature.nii';
 tvm_computeDivergence(configuration);
 
 configuration = [];
+configuration.i_Gradient = 'LevelSets/brain.gradient.nii';
+configuration.i_Curvature = 'LevelSets/brain.curvature.nii';
+configuration.i_Levels = 0:1/3:1;
+configuration.o_Layering = 'LevelSets/brain.layers.nii';
+configuration.o_LevelSet = 'LevelSets/brain.levels.nii';
 tvm_volumetricLayering(configuration);
 
 configuration = [];
+configuration.i_LevelSet = 'LevelSets/brain.levels.nii';
 tvm_levelSetToObj(configuration);
 
 configuration = [];
 tvm_objToBoundary(configuration);
 
 configuration = [];
+configuration.i_Layers = 'LevelSets/brain.layers.nii';
 tvm_roiToDesignMatrix(configuration);
 
 configuration = [];

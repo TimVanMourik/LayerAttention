@@ -209,6 +209,26 @@
       "id": "6027d316-d4ed-4a50-a8be-f26faa819b76",
       "from": "abbb2181-6e20-4122-bcee-7f285af6dff7",
       "to": "34552263-d0dd-401d-a451-249e3f9bcf15"
+    },
+    {
+      "id": "12caa3b8-ca8c-48f7-8195-b064bf2c731e",
+      "from": "87b9c640-6746-4430-8ed3-4ca8bb8a8000",
+      "to": "e66b3802-8ad0-4381-8b9d-96c0d1073eb8"
+    },
+    {
+      "id": "0c6624d5-34fd-4b63-ab10-9e791161f43c",
+      "from": "87b9c640-6746-4430-8ed3-4ca8bb8a8000",
+      "to": "12d24829-5d58-4ae0-a27c-5abaa669a839"
+    },
+    {
+      "id": "5604c811-01f7-4477-a3cd-d1bc8a72a737",
+      "from": "55714a11-accc-4b16-a8ce-2e61b0331c5b",
+      "to": "dc14ca7c-9394-4c6a-bbdb-a0e6fba53457"
+    },
+    {
+      "id": "8fb268ed-6335-44e5-af7e-4f4a0bfe115e",
+      "from": "55714a11-accc-4b16-a8ce-2e61b0331c5b",
+      "to": "776cd7b7-03aa-4a52-a691-3837d5428bfd"
     }
   ],
   "nodes": [
@@ -354,7 +374,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "69423843-d31a-4e39-9c93-4610d43653c8",
           "input": true,
           "inputPort": "b70a3179-1e7e-463f-a419-b64936836b1d",
@@ -586,7 +606,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "fa95810f-4c0d-4d12-9064-2a0d24639574",
           "input": true,
           "inputPort": "facd87e5-b997-40ff-b114-e9dd1f82bc52",
@@ -671,7 +691,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "5ce5b959-0ca2-498a-ba66-e5dcb9bba7b6",
           "input": true,
           "inputPort": "e4d12281-2bdd-4a5b-9e74-4733ee600d7e",
@@ -798,7 +818,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "3a92a3aa-7c39-475b-aac7-c1aaa5aad38b",
           "input": true,
           "inputPort": "44303183-9170-4ba4-9493-8d31199af1f7",
@@ -904,7 +924,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "25a41d8c-4800-4dab-89e9-47f01c959a37",
           "input": true,
           "inputPort": "f80368d6-dc2c-492d-8d19-2840da637f23",
@@ -1073,7 +1093,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "2c76683e-090d-41bb-a356-03f5f842dc16",
           "input": true,
           "inputPort": "1e2f83e7-23c0-4a97-8fc4-2f829326fac8",
@@ -1242,7 +1262,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "a3b0e4ff-239d-4bca-982d-d6f68c2ae4f8",
           "input": true,
           "inputPort": "b80bf154-9d4f-41d6-b34f-5a877c8875c3",
@@ -1348,14 +1368,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "4fb31ce3-6f2a-4589-afa0-dc181cf356f0",
           "input": true,
           "inputPort": "f8aef938-5c94-45d0-9790-e02608ef99f8",
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "078dfc90-21fb-4d5b-95ec-f606f053458e",
-          "value": "",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
           "visible": true,
           "iterator": false
         },
@@ -1369,14 +1389,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "0d8cb765-35a9-4347-8537-6618d9da5ba9",
           "input": true,
           "inputPort": "1e9090d3-9baa-48a0-a336-8a9a96e1cfc6",
           "name": "i_FunctionalFolder",
           "output": true,
           "outputPort": "fd0cf62a-587f-45af-a13d-e1081c021fc5",
-          "value": "",
+          "value": "'Scans/Functional/Realigned'",
           "visible": true,
           "iterator": false
         },
@@ -1496,14 +1516,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "1c77b87b-c3ce-41fc-9a7e-00cd366e8a15",
           "input": true,
           "inputPort": "7722c858-8f17-4940-907d-dd6414ead5d5",
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
-          "value": "",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
           "visible": true,
           "iterator": false
         },
@@ -1559,7 +1579,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "2400f8e9-bfe2-492d-9505-9bc17a5ac29d",
           "input": true,
           "inputPort": "d9b9034b-178e-46d3-8894-8cfe343dcb4d",
@@ -1707,14 +1727,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "2988806f-322c-4b5f-b364-e4c8fd71614e",
           "input": true,
           "inputPort": "83855357-5ec5-46e7-9259-6a270c155f75",
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "e741b1d1-0236-416f-926b-376d1e5b506c",
-          "value": "",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
           "visible": true,
           "iterator": false
         },
@@ -1728,7 +1748,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "4c8a702f-17eb-401c-b394-05085b63bd06",
           "input": true,
           "inputPort": "837f18ce-d5ed-44bc-bba2-abed30bfbaf8",
@@ -1749,7 +1769,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "9fd929a5-cff9-4443-9415-08a90f207040",
           "input": true,
           "inputPort": "ec1c84ec-c071-4e15-82ed-03b04ed812a8",
@@ -1855,14 +1875,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "3bb34594-c033-4671-a004-0a300d3d487f",
           "input": true,
           "inputPort": "15c00848-107a-4e82-93ac-c808a160525d",
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "d3363881-cbb1-4eb1-8b6d-13bbb709ebb4",
-          "value": "",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
           "visible": true,
           "iterator": false
         },
@@ -1876,7 +1896,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "8c6040e1-2e04-4d2f-9ada-3dc4c8dfd1db",
           "input": true,
           "inputPort": "b6a3d84f-1e06-46f7-80df-c343eeb0bce2",
@@ -1897,7 +1917,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "32da8e67-df72-4909-8df3-b3e2c2d26832",
           "input": true,
           "inputPort": "ebb8f150-b1d3-4487-ae01-7811d7967412",
@@ -2003,7 +2023,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "75a9270f-b1f2-40c9-bfd2-68c0f5472a00",
           "input": true,
           "inputPort": "d1249255-d5d7-49d4-a999-23290875845c",
@@ -2130,14 +2150,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "58779971-0baf-4c48-992a-76e3b8f4ad3f",
           "input": true,
           "inputPort": "6c1253cc-daad-42e7-b188-1755ce9c97c5",
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "8705a4f1-5948-4126-b662-68b140f1f39e",
-          "value": "",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
           "visible": true,
           "iterator": false
         },
@@ -2151,7 +2171,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "53795d53-9553-49c2-8749-68c8850fbc5a",
           "input": true,
           "inputPort": "12957c12-094d-4b14-a1bc-1829db43cb71",
@@ -2320,7 +2340,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "9423d9e6-f8e6-4562-95c7-f270d4c564c2",
           "input": true,
           "inputPort": "574fa415-6615-41e1-b18a-84552d6811a2",
@@ -2518,7 +2538,7 @@
           "output": true,
           "outputPort": "c195ccad-49b5-4b4f-b6fe-12ff5533eccf",
           "value": "",
-          "visible": true,
+          "visible": false,
           "iterator": false
         },
         {
@@ -2538,7 +2558,7 @@
           "name": "i_SourceDirectory",
           "output": true,
           "outputPort": "09bab4a7-192e-4f91-ae30-a63b3f7c0545",
-          "value": "",
+          "value": "'Scans/Functional/NifTI'",
           "visible": true,
           "iterator": false
         },
@@ -2560,7 +2580,7 @@
           "output": true,
           "outputPort": "596cbfcd-2a2f-4d45-b720-4209bbb4ecfc",
           "value": "",
-          "visible": true,
+          "visible": false,
           "iterator": false
         },
         {
@@ -2580,7 +2600,7 @@
           "name": "o_OutputDirectory",
           "output": true,
           "outputPort": "a8264c8d-5d01-4787-a75d-621dbca5e900",
-          "value": "",
+          "value": "'Scans/Functional/Realigned'",
           "visible": true,
           "iterator": false
         },
@@ -2601,14 +2621,14 @@
           "name": "o_MeanFunctional",
           "output": true,
           "outputPort": "f06f2026-91fb-41dd-95da-f288e5f2bba1",
-          "value": "",
+          "value": "'Scans/Functional/MeanFunctional.nii'",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        -346.2761132808264,
-        102.07012147114482
+        -381.2761132808264,
+        103.73677796528544
       ],
       "code": [
         {
@@ -2770,7 +2790,7 @@
           "name": "o_FreeSurferFolder",
           "output": true,
           "outputPort": "48420fc4-6bcd-44db-991c-7b9952103ea5",
-          "value": "",
+          "value": "'../Doreti'",
           "visible": true,
           "iterator": false
         }
@@ -2827,14 +2847,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "d2e9d6d7-b639-4a77-b322-061e62fa2f4a",
           "input": true,
           "inputPort": "c6d8025d-ffdd-4c0f-bcc3-818984cb8766",
           "name": "i_RegistrationVolume",
           "output": true,
           "outputPort": "87b9c640-6746-4430-8ed3-4ca8bb8a8000",
-          "value": "",
+          "value": "'Scans/Functional/MeanFunctional.nii'",
           "visible": true,
           "iterator": false
         },
@@ -2848,14 +2868,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "f120c04b-bfb2-4981-99ab-db3430b0fcf6",
           "input": true,
           "inputPort": "6d7443a1-766a-414e-a494-8ffc4311ec94",
           "name": "i_FreeSurferFolder",
           "output": true,
           "outputPort": "704af590-2646-4000-9ee0-46284e5649a7",
-          "value": "",
+          "value": "'../Doreti'",
           "visible": true,
           "iterator": false
         },
@@ -2939,7 +2959,7 @@
           "name": "i_DegreesOfFreedom",
           "output": true,
           "outputPort": "443efad7-ffeb-4fb3-b3fb-3a62a64b5962",
-          "value": "",
+          "value": "12",
           "visible": true,
           "iterator": false
         },
@@ -2981,7 +3001,7 @@
           "name": "o_Boundaries",
           "output": true,
           "outputPort": "1667a41f-e745-4e6e-98bd-c07c2ac1bc10",
-          "value": "",
+          "value": "'Boundaries/bbregister.mat'",
           "visible": true,
           "iterator": false
         },
@@ -3002,7 +3022,7 @@
           "name": "o_RegisterDat",
           "output": true,
           "outputPort": "e43f3e06-f92b-484d-b5eb-bc3417cbcc22",
-          "value": "",
+          "value": "'Coregistration/FreeSurfer/bbregister.dat'",
           "visible": true,
           "iterator": false
         },
@@ -3023,7 +3043,7 @@
           "name": "o_CoregistrationMatrix",
           "output": true,
           "outputPort": "12fee04b-3fc5-4725-8708-0524a483999f",
-          "value": "",
+          "value": "'Coregistration/bbregister.mat'",
           "visible": true,
           "iterator": false
         }
@@ -3080,14 +3100,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "0bec37a7-9b11-40ec-8d9b-94a1192a1513",
           "input": true,
           "inputPort": "12d24829-5d58-4ae0-a27c-5abaa669a839",
           "name": "i_ReferenceVolume",
           "output": true,
           "outputPort": "55714a11-accc-4b16-a8ce-2e61b0331c5b",
-          "value": "",
+          "value": "'Scans/Functional/MeanFunctional.nii'",
           "visible": true,
           "iterator": false
         },
@@ -3101,14 +3121,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "04d7b6fc-5dba-4535-a8a2-dcada2c388f5",
           "input": true,
           "inputPort": "6e4274ec-897f-4230-83f5-486ac9416286",
           "name": "i_Boundaries",
           "output": true,
           "outputPort": "1eabcb7c-bbd9-44ce-b27c-33cd0b97acac",
-          "value": "",
+          "value": "'Boundaries/bbregister.mat'",
           "visible": true,
           "iterator": false
         },
@@ -3255,7 +3275,7 @@
           "name": "o_Boundaries",
           "output": true,
           "outputPort": "7fb7be95-e5dc-4c3c-b203-22f9b5e4e2ac",
-          "value": "",
+          "value": "'Boundaries/rbr.mat'",
           "visible": true,
           "iterator": false
         },
@@ -3282,8 +3302,8 @@
         }
       ],
       "position": [
-        586.6764563428003,
-        25.726551863497683
+        584.0097693310815,
+        32.39322361642737
       ],
       "code": [
         {
@@ -3333,14 +3353,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "5c113b84-8f96-4aed-bf66-085d49e311c9",
           "input": true,
           "inputPort": "7c420508-b026-46bd-bd11-99070bc24553",
           "name": "i_Boundaries",
           "output": true,
           "outputPort": "b771d270-12da-44bd-9377-eeb28a71cf84",
-          "value": "",
+          "value": "'Boundaries/rbr.mat'",
           "visible": true,
           "iterator": false
         },
@@ -3361,7 +3381,7 @@
           "name": "o_ObjWhite",
           "output": true,
           "outputPort": "1c3907e1-05d1-4fad-b87d-a671440989ed",
-          "value": "",
+          "value": "'LevelSets/?h.white.obj'",
           "visible": true,
           "iterator": false
         },
@@ -3382,14 +3402,14 @@
           "name": "o_ObjPial",
           "output": true,
           "outputPort": "b185ecf6-80a8-4d10-8d5f-3f491fcc0a6a",
-          "value": "",
+          "value": "'LevelSets/?h.pial.obj'",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        1262.5551430035055,
-        190.47795553934333
+        1255.888517026943,
+        225.14461203348395
       ],
       "code": [
         {
@@ -3439,14 +3459,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "dc7fa01d-1492-4e63-b35e-53bee3ad4b82",
           "input": true,
           "inputPort": "e66b3802-8ad0-4381-8b9d-96c0d1073eb8",
           "name": "i_ReferenceVolume",
           "output": true,
           "outputPort": "789b311a-0e21-46bc-ba22-7698c4a07875",
-          "value": "",
+          "value": "'Scans/Functional/MeanFunctional.nii'",
           "visible": true,
           "iterator": false
         },
@@ -3460,14 +3480,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "29560803-b613-43e8-98d4-1171029be81b",
           "input": true,
           "inputPort": "bc11e038-37fe-4b07-b386-0e37840d26fe",
           "name": "i_Boundaries",
           "output": true,
           "outputPort": "9b1cf232-cd77-40e1-92e6-583311fc71ed",
-          "value": "",
+          "value": "'Boundaries/bbregister.mat'",
           "visible": true,
           "iterator": false
         },
@@ -3488,7 +3508,7 @@
           "name": "i_Axis",
           "output": true,
           "outputPort": "bc60701c-a4d5-41e0-8942-d880c4b44de0",
-          "value": "",
+          "value": "'transversal'",
           "visible": true,
           "iterator": false
         },
@@ -3656,7 +3676,7 @@
           "name": "o_RegistrationMovie",
           "output": true,
           "outputPort": "9da32160-6c4f-4983-866a-89d98f9216dd",
-          "value": "",
+          "value": "'../Coregistration/BBR.avi'",
           "visible": true,
           "iterator": false
         }
@@ -3713,14 +3733,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "d3cd7fb5-aca9-423f-ad04-cef6367560d0",
           "input": true,
           "inputPort": "dc14ca7c-9394-4c6a-bbdb-a0e6fba53457",
           "name": "i_ReferenceVolume",
           "output": true,
           "outputPort": "9ddd7157-ef28-407e-8476-541310a72d90",
-          "value": "",
+          "value": "'Scans/Functional/MeanFunctional.nii'",
           "visible": true,
           "iterator": false
         },
@@ -3734,14 +3754,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "ff35b6d0-c849-4342-9288-80f383351821",
           "input": true,
           "inputPort": "26f65115-d1e6-41a2-a786-7aea9bad6ee7",
           "name": "i_Boundaries",
           "output": true,
           "outputPort": "86354c3b-826a-4661-b12c-0dfd2fed8bce",
-          "value": "",
+          "value": "'Boundaries/rbr.mat'",
           "visible": true,
           "iterator": false
         },
@@ -3762,7 +3782,7 @@
           "name": "i_Axis",
           "output": true,
           "outputPort": "d7a1cdf0-d7af-4be6-88d3-5f6d6c12a0ea",
-          "value": "",
+          "value": "'transversal'",
           "visible": true,
           "iterator": false
         },
@@ -3930,7 +3950,7 @@
           "name": "o_RegistrationMovie",
           "output": true,
           "outputPort": "b0c2a1b3-f1a3-4d2c-887d-726e0d400e04",
-          "value": "",
+          "value": "'../Coregistration/RBR.avi'",
           "visible": true,
           "iterator": false
         }
@@ -3974,7 +3994,7 @@
           "output": true,
           "outputPort": "9896e04d-0afa-4c12-8cef-0331e6d39f52",
           "value": "",
-          "visible": true,
+          "visible": false,
           "iterator": false
         },
         {
@@ -3987,14 +4007,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "829e4a71-e32a-4825-98a7-edc7d4aa823d",
           "input": true,
           "inputPort": "776cd7b7-03aa-4a52-a691-3837d5428bfd",
           "name": "i_ReferenceVolume",
           "output": true,
           "outputPort": "8b5be1c8-f6f2-4274-bcaa-b60afab40169",
-          "value": "",
+          "value": "'Scans/Functional/MeanFunctional.nii'",
           "visible": true,
           "iterator": false
         },
@@ -4008,14 +4028,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "850d8ba6-bbc2-4441-9ed7-8db0ac56517a",
           "input": true,
           "inputPort": "08676b63-2c37-4a2e-8d86-b3ddcf05dfaf",
           "name": "i_ObjWhite",
           "output": true,
           "outputPort": "d19e5948-f01b-43d3-bcf1-91c6233259f9",
-          "value": "",
+          "value": "'LevelSets/?h.white.obj'",
           "visible": true,
           "iterator": false
         },
@@ -4029,14 +4049,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "5e2884a4-c065-4363-9195-2a42cc8296c2",
           "input": true,
           "inputPort": "b7af62cd-5ed9-4d08-81a4-9d7e57a1dcba",
           "name": "i_ObjPial",
           "output": true,
           "outputPort": "e8711023-6326-4397-b67a-8979e6bdb428",
-          "value": "",
+          "value": "'LevelSets/?h.pial.obj'",
           "visible": true,
           "iterator": false
         },
@@ -4099,7 +4119,7 @@
           "name": "o_SdfWhite",
           "output": true,
           "outputPort": "99bbc144-a733-4f8b-bf3d-4e78026e51d9",
-          "value": "",
+          "value": "'LevelSets/?h.white.sdf.nii'",
           "visible": true,
           "iterator": false
         },
@@ -4120,7 +4140,7 @@
           "name": "o_SdfPial",
           "output": true,
           "outputPort": "e788d562-4446-42d8-b122-5bff0626022d",
-          "value": "",
+          "value": "'LevelSets/?h.pial.sdf.nii'",
           "visible": true,
           "iterator": false
         },
@@ -4141,7 +4161,7 @@
           "name": "o_White",
           "output": true,
           "outputPort": "460163fe-185b-4fb7-8426-614f75d0a227",
-          "value": "",
+          "value": "'LevelSets/brain.white.sdf.nii'",
           "visible": true,
           "iterator": false
         },
@@ -4162,14 +4182,14 @@
           "name": "o_Pial",
           "output": true,
           "outputPort": "abbb2181-6e20-4122-bcee-7f285af6dff7",
-          "value": "",
+          "value": "'LevelSets/brain.pial.sdf.nii'",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        1654.98458337368,
-        224.06637298656904
+        1617.65108727993,
+        173.39968597485029
       ],
       "code": [
         {
@@ -4206,7 +4226,7 @@
           "output": true,
           "outputPort": "fde20b5f-272a-46f6-8167-b6aac8933349",
           "value": "",
-          "visible": true,
+          "visible": false,
           "iterator": false
         },
         {
@@ -4219,14 +4239,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "88e04ae6-1aff-454a-9e0c-3f1314e78ce3",
           "input": true,
           "inputPort": "13626511-d644-4131-b250-682b74dedcb1",
           "name": "i_White",
           "output": true,
           "outputPort": "db726d1a-37aa-46f1-9245-c037bd521354",
-          "value": "",
+          "value": "'LevelSets/brain.white.sdf.nii'",
           "visible": true,
           "iterator": false
         },
@@ -4240,14 +4260,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "ae6a7b43-21d9-4889-b3d2-bd9e9aee6ec1",
           "input": true,
           "inputPort": "34552263-d0dd-401d-a451-249e3f9bcf15",
           "name": "i_Pial",
           "output": true,
           "outputPort": "bfbc77ac-50dc-4100-b3a1-483c91fc40a3",
-          "value": "",
+          "value": "'LevelSets/brain.pial.sdf.nii'",
           "visible": true,
           "iterator": false
         },
@@ -4310,14 +4330,14 @@
           "name": "o_LaplacePotential",
           "output": true,
           "outputPort": "574dad07-fae5-4012-95d1-59120154017d",
-          "value": "",
+          "value": "'LevelSets/LaplacePotential.nii'",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        1953.0754893828753,
-        363.0070978610045
+        1914.4087413360003,
+        380.3404108492858
       ],
       "code": [
         {
@@ -4367,14 +4387,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "c2e6dd9a-3513-40dd-943d-ffda94f1b686",
           "input": true,
           "inputPort": "2756f4c3-109e-45a7-a377-d1a2cf642c8a",
           "name": "i_Potential",
           "output": true,
           "outputPort": "f2e250b7-8340-4233-acba-1b53a4adb092",
-          "value": "",
+          "value": "'LevelSets/LaplacePotential.nii'",
           "visible": true,
           "iterator": false
         },
@@ -4416,7 +4436,7 @@
           "name": "o_Gradient",
           "output": true,
           "outputPort": "b902b67a-cb0e-469a-8769-6a3c89c4314f",
-          "value": "",
+          "value": "'LevelSets/brain.gradient.nii'",
           "visible": true,
           "iterator": false
         }
@@ -4473,14 +4493,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "00e6507d-8f50-4e9b-ada3-55c0535f8af2",
           "input": true,
           "inputPort": "6c1c6706-7514-42b5-963c-389ce1e7f68c",
           "name": "i_VectorField",
           "output": true,
           "outputPort": "4c0fe683-1dde-4a31-80bc-eb80d263d801",
-          "value": "",
+          "value": "'LevelSets/brain.gradient.nii'",
           "visible": true,
           "iterator": false
         },
@@ -4522,7 +4542,7 @@
           "name": "o_Divergence",
           "output": true,
           "outputPort": "859f8101-2502-4d10-99fa-a5028c3ef879",
-          "value": "",
+          "value": "'LevelSets/brain.curvature.nii'",
           "visible": true,
           "iterator": false
         }
@@ -4579,7 +4599,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "2ceaa5c2-5d95-4d1c-9c2a-6751a4c0bca8",
           "input": true,
           "inputPort": "6a0369a9-fe15-4298-84aa-da2a9fc2a470",
@@ -4600,7 +4620,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "ea8a64aa-6f8c-47e9-9323-9721c5271618",
           "input": true,
           "inputPort": "d4725318-1eac-4bb3-9ab1-ca57d51951cc",
@@ -4621,14 +4641,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "cb723a93-0a79-4046-b7e3-a47a1403abb8",
           "input": true,
           "inputPort": "67223de2-3dca-41fb-93e2-4ade80ee986e",
           "name": "i_Gradient",
           "output": true,
           "outputPort": "3eb95ef3-d55f-45d1-8cd2-56749e3821af",
-          "value": "",
+          "value": "'LevelSets/brain.gradient.nii'",
           "visible": true,
           "iterator": false
         },
@@ -4642,14 +4662,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "e115ccc7-fa58-4a7d-8513-f5eb6907f791",
           "input": true,
           "inputPort": "5d82c11b-3184-47fa-8b64-ec49f2ec5607",
           "name": "i_Curvature",
           "output": true,
           "outputPort": "80c284d2-277f-47a5-91b9-4de9afc7797d",
-          "value": "",
+          "value": "'LevelSets/brain.curvature.nii'",
           "visible": true,
           "iterator": false
         },
@@ -4670,7 +4690,7 @@
           "name": "i_Levels",
           "output": true,
           "outputPort": "ce743a12-1785-49ff-b3b5-d7d9ef4d164e",
-          "value": "",
+          "value": "0:1/3:1",
           "visible": true,
           "iterator": false
         },
@@ -4712,7 +4732,7 @@
           "name": "o_Layering",
           "output": true,
           "outputPort": "19e11617-638e-43df-acce-75254bdb83d8",
-          "value": "",
+          "value": "'LevelSets/brain.layers.nii'",
           "visible": true,
           "iterator": false
         },
@@ -4733,7 +4753,7 @@
           "name": "o_LevelSet",
           "output": true,
           "outputPort": "8fc4597d-d490-4c0f-8e99-24c92a789c9b",
-          "value": "",
+          "value": "'LevelSets/brain.levels.nii'",
           "visible": true,
           "iterator": false
         }
@@ -4790,14 +4810,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "9969ff0e-40aa-4aa3-843d-240d43d81c75",
           "input": true,
           "inputPort": "357739ca-51cb-4ac8-8f05-262869ef2256",
           "name": "i_LevelSet",
           "output": true,
           "outputPort": "8b224996-3ff3-4f29-bf46-35e51da12750",
-          "value": "",
+          "value": "'LevelSets/brain.levels.nii'",
           "visible": true,
           "iterator": false
         },
@@ -4875,7 +4895,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "0039ec80-8168-4568-8c2f-2f2c435d5432",
           "input": true,
           "inputPort": "1c313eae-fada-4dc2-8ce3-9d1057314096",
@@ -4981,14 +5001,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "0da03e36-d9e4-4424-8d0e-7d6538e54fb0",
           "input": true,
           "inputPort": "66c2cff0-4776-4aa1-b40d-19e05d5988d5",
           "name": "i_Layers",
           "output": true,
           "outputPort": "02ea0a4b-1263-44ce-8c23-e6a788060e0d",
-          "value": "",
+          "value": "'LevelSets/brain.layers.nii'",
           "visible": true,
           "iterator": false
         },
@@ -5066,7 +5086,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "c6bc1382-030e-414b-af4b-149c5d88f837",
           "input": true,
           "inputPort": "f86b4d4e-9451-499b-b77d-9cb3ddfcc992",
@@ -5235,7 +5255,7 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "0aafbefd-2d63-4db6-8f6c-f15aa4e8970c",
           "input": true,
           "inputPort": "c0a5ea2d-b9fa-4488-90bf-a5c3bda3a204",
