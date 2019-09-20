@@ -61,28 +61,45 @@ tvm_design_removeVolumes(configuration);
 configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 configuration.i_FunctionalFolder = 'Scans/Functional/Realigned';
+configuration.i_Confounds = {'Respiration', 'Heartbeat', 'Motion', 'Filter'};
+configuration.o_FilteredFolder = 'Scans/Functional/Filtered/';
 tvm_regressConfounds(configuration);
 
 configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
+configuration.i_ReferenceVolume = 'Scans/Functional/MeanFunctional.nii';
+configuration.i_SourceDirectory = 'Scans/Functional/Smoothed/';
+configuration.i_Mask = '../RegionsOfInterest/Brain.nii';
+configuration.o_Betas = 'Activation/BetasCanonicalHrf.nii';
+configuration.o_ResidualSumOfSquares = 'Activation/RssCanonicalHrf.nii';
 tvm_glm(configuration);
 
 configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
+configuration.i_Betas = 'Activation/BetasCanonicalHrf.nii';
+configuration.i_ResidualSumOfSquares = 'Activation/RssCanonicalHrf.nii';
 tvm_glmToTMap(configuration);
 
 configuration = [];
-configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
-tvm_glmToTMap(configuration);
-
-configuration = [];
+configuration.i_SourceDirectory = 'Scans/Functional/Filtered/';
+configuration.i_SmoothingKernel = [4, 4, 4];
+configuration.o_OutputDirectory = 'Scans/Functional/Smoothed/';
 tvm_smoothFunctionals(configuration);
 
 configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
+configuration.i_Betas = 'Activation/BetasCanonicalHrf.nii';
+configuration.i_Resolution = 50;
+configuration.i_Order = 5;
+configuration.i_PhysioType = {'Respiration', 'Heartbeat'};
+configuration.o_BackProjection = {'Activation/RespirationMovie.nii', 'Activation/HeartrateMovie.nii'};
 tvm_retroicorBackProject(configuration);
 
 configuration = [];
+configuration.i_VolumeFile = {'Activation/RespirationMovie.nii', 'Activation/HeartrateMovie.nii'};
+configuration.i_FramesPerSecond = 25;
+configuration.i_Slice = 5;
+configuration.o_Movie =  {'Activation/RespirationMovie.avi', 'Activation/HeartrateMovie.avi'};
 tvm_movieFrom4D(configuration);
 
 configuration = [];
@@ -180,5 +197,12 @@ tvm_designMatrixToTimeCourse(configuration);
 
 configuration = [];
 tvm_volumeWithBoundariesToMovie(configuration);
+
+configuration = [];
+configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
+configuration.i_Betas = 'Activation/BetasCanonicalHrf.nii';
+configuration.i_ResidualSumOfSquares = 'Activation/RssCanonicalHrf.nii';
+configuration.i_Contrast = {{'Respiration'},{'Heartbeat'},{'Motion'}};;
+tvm_glmToFMap(configuration);
 
 % end of script

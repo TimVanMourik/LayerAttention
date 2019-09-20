@@ -61,16 +61,6 @@
       "to": "ec1c84ec-c071-4e15-82ed-03b04ed812a8"
     },
     {
-      "id": "1bbb5525-89a0-4839-a263-fdcead91bc66",
-      "from": "00c47962-4af7-45a0-bb59-b6525f965253",
-      "to": "ebb8f150-b1d3-4487-ae01-7811d7967412"
-    },
-    {
-      "id": "aa275b4d-a1db-4a8d-b8f0-f65077f5fa3b",
-      "from": "bc6eafd2-db64-4c02-aa94-22609748791c",
-      "to": "b6a3d84f-1e06-46f7-80df-c343eeb0bce2"
-    },
-    {
       "id": "6465613b-63cf-40b6-a480-b27f91dec44f",
       "from": "4090c68e-be30-452c-81c9-63f7724a0a92",
       "to": "574fa415-6615-41e1-b18a-84552d6811a2"
@@ -89,11 +79,6 @@
       "id": "a36d4d72-b6be-4910-a8fd-e0077b0d03fc",
       "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
       "to": "83855357-5ec5-46e7-9259-6a270c155f75"
-    },
-    {
-      "id": "0a14cce8-6132-4152-969c-d13c69f5cd9b",
-      "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
-      "to": "15c00848-107a-4e82-93ac-c808a160525d"
     },
     {
       "id": "bef90891-bc29-4983-945c-d6341166670d",
@@ -229,6 +214,31 @@
       "id": "8fb268ed-6335-44e5-af7e-4f4a0bfe115e",
       "from": "55714a11-accc-4b16-a8ce-2e61b0331c5b",
       "to": "776cd7b7-03aa-4a52-a691-3837d5428bfd"
+    },
+    {
+      "id": "fd09de1c-a182-44e6-ba3d-a9fbf62cf645",
+      "from": "f06f2026-91fb-41dd-95da-f288e5f2bba1",
+      "to": "90c6b93a-5665-4ec9-bf03-25cc56bb01aa"
+    },
+    {
+      "id": "5699c18d-cb12-440a-8940-e1039c356677",
+      "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
+      "to": "e4fa56ba-fbb1-432c-86fc-9c0371b33599"
+    },
+    {
+      "id": "ec1760c1-e277-442a-9527-362221781fec",
+      "from": "bc6eafd2-db64-4c02-aa94-22609748791c",
+      "to": "4bb9188f-59c9-454d-82e8-aee551a7a32d"
+    },
+    {
+      "id": "3a113420-faf4-4872-9d07-9a40aa1526eb",
+      "from": "00c47962-4af7-45a0-bb59-b6525f965253",
+      "to": "c1f8cda7-b004-47f3-8cd8-c94831ab37a4"
+    },
+    {
+      "id": "a3d7285b-89fd-4497-8e94-86a3adc2c9d9",
+      "from": "2800de29-3b14-4cb5-9218-58a10b70d690",
+      "to": "87f9b2c6-0e75-41aa-b839-53d2ccd8099b"
     }
   ],
   "nodes": [
@@ -1042,8 +1052,8 @@
         }
       ],
       "position": [
-        -773.8422866158636,
-        397.6604918384562
+        -789.8422866158636,
+        514.9938658618937
       ],
       "code": [
         {
@@ -1211,8 +1221,8 @@
         }
       ],
       "position": [
-        -412.57376143928605,
-        430.22224852879924
+        -391.24043319221573,
+        524.888935540518
       ],
       "code": [
         {
@@ -1438,7 +1448,7 @@
           "name": "i_Confounds",
           "output": true,
           "outputPort": "60df4fb7-63bf-4957-bc7d-c2066b95ca2f",
-          "value": "",
+          "value": "{'Respiration', 'Heartbeat', 'Motion', 'Filter'}",
           "visible": true,
           "iterator": false
         },
@@ -1459,14 +1469,14 @@
           "name": "o_FilteredFolder",
           "output": true,
           "outputPort": "f103387a-5cc9-445a-8cbf-0af172d2b1db",
-          "value": "",
+          "value": "'Scans/Functional/Filtered/'",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        84.93118440052945,
-        399.9710363807708
+        80.44641267201382,
+        445.9400305213958
       ],
       "code": [
         {
@@ -1537,14 +1547,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "f36cbdb2-0da1-4858-9628-cb526d2721d2",
           "input": true,
           "inputPort": "90c6b93a-5665-4ec9-bf03-25cc56bb01aa",
           "name": "i_ReferenceVolume",
           "output": true,
           "outputPort": "4f5e8686-7249-4b16-8a97-e8c970b6219c",
-          "value": "",
+          "value": "'Scans/Functional/MeanFunctional.nii'",
           "visible": true,
           "iterator": false
         },
@@ -1565,7 +1575,7 @@
           "name": "i_SourceDirectory",
           "output": true,
           "outputPort": "01f11e23-7966-4664-b9eb-cd1d2c549d7a",
-          "value": "",
+          "value": "'Scans/Functional/Smoothed/'",
           "visible": true,
           "iterator": false
         },
@@ -1607,28 +1617,7 @@
           "name": "i_Mask",
           "output": true,
           "outputPort": "ec8b193e-5c84-4d30-b26d-456cc6934bf8",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_FunctionalSelection",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_FunctionalSelection"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "77f7ff05-5dae-4dcb-8014-e27e6420c090",
-          "input": true,
-          "inputPort": "6aa2b4fc-c388-4aa4-9e29-c0478c394ff3",
-          "name": "i_FunctionalSelection",
-          "output": true,
-          "outputPort": "8b414b36-1206-4e64-bb64-8669956eefef",
-          "value": "",
+          "value": "'../RegionsOfInterest/Brain.nii'",
           "visible": true,
           "iterator": false
         },
@@ -1649,7 +1638,7 @@
           "name": "o_Betas",
           "output": true,
           "outputPort": "bc6eafd2-db64-4c02-aa94-22609748791c",
-          "value": "",
+          "value": "'Activation/BetasCanonicalHrf.nii'",
           "visible": true,
           "iterator": false
         },
@@ -1670,14 +1659,14 @@
           "name": "o_ResidualSumOfSquares",
           "output": true,
           "outputPort": "00c47962-4af7-45a0-bb59-b6525f965253",
-          "value": "",
+          "value": "'Activation/RssCanonicalHrf.nii'",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        804.1523973622675,
-        488.3765947905466
+        814.2431566396112,
+        513.0429155913279
       ],
       "code": [
         {
@@ -1755,7 +1744,7 @@
           "name": "i_Betas",
           "output": true,
           "outputPort": "66930ff8-b9ba-4fab-8ee4-db103eb1f753",
-          "value": "",
+          "value": "'Activation/BetasCanonicalHrf.nii'",
           "visible": true,
           "iterator": false
         },
@@ -1776,7 +1765,7 @@
           "name": "i_ResidualSumOfSquares",
           "output": true,
           "outputPort": "f957fe65-10de-4e22-b57d-eff50450c9e1",
-          "value": "",
+          "value": "'Activation/RssCanonicalHrf.nii'",
           "visible": true,
           "iterator": false
         },
@@ -1840,154 +1829,6 @@
       "colour": "#645CBE"
     },
     {
-      "id": "96d1b308-b023-4e40-b0c9-a5faf1f55537",
-      "name": "tvm_glm_to_tmap_1",
-      "class": "tvm_glmToTMap",
-      "ports": [
-        {
-          "base": "i_SubjectDirectory",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_SubjectDirectory"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "4961f612-9fe3-43ac-91e5-6012ed132769",
-          "input": true,
-          "inputPort": "ab7eff11-43f6-4156-a4c9-f6ffdb6223d3",
-          "name": "i_SubjectDirectory",
-          "output": true,
-          "outputPort": "93971e87-1001-46b3-a151-c19336585f66",
-          "value": "",
-          "visible": false,
-          "iterator": false
-        },
-        {
-          "base": "i_DesignMatrix",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_DesignMatrix"
-              }
-            }
-          ],
-          "editable": false,
-          "id": "3bb34594-c033-4671-a004-0a300d3d487f",
-          "input": true,
-          "inputPort": "15c00848-107a-4e82-93ac-c808a160525d",
-          "name": "i_DesignMatrix",
-          "output": true,
-          "outputPort": "d3363881-cbb1-4eb1-8b6d-13bbb709ebb4",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Betas",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_Betas"
-              }
-            }
-          ],
-          "editable": false,
-          "id": "8c6040e1-2e04-4d2f-9ada-3dc4c8dfd1db",
-          "input": true,
-          "inputPort": "b6a3d84f-1e06-46f7-80df-c343eeb0bce2",
-          "name": "i_Betas",
-          "output": true,
-          "outputPort": "8bd5a6d3-0690-4e8f-a6b0-c8193da92619",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_ResidualSumOfSquares",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_ResidualSumOfSquares"
-              }
-            }
-          ],
-          "editable": false,
-          "id": "32da8e67-df72-4909-8df3-b3e2c2d26832",
-          "input": true,
-          "inputPort": "ebb8f150-b1d3-4487-ae01-7811d7967412",
-          "name": "i_ResidualSumOfSquares",
-          "output": true,
-          "outputPort": "9778c75b-d84f-4444-be5c-f18c9b92dfc1",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Contrast",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_Contrast"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "a78d1bb6-d298-4521-acfd-569c808419e3",
-          "input": true,
-          "inputPort": "19b0ca62-923a-4bbc-a844-37e77c275bb1",
-          "name": "i_Contrast",
-          "output": true,
-          "outputPort": "7c568fa5-cd90-494a-a5ea-92a33d59f665",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "o_TMap",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "o_TMap"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "3a3fd806-81ef-4cb5-800a-73b8d5c6c8f8",
-          "input": false,
-          "inputPort": false,
-          "name": "o_TMap",
-          "output": true,
-          "outputPort": "9005d110-dba4-4533-b7d8-d2e99c0e50e0",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        }
-      ],
-      "position": [
-        1214.802811697675,
-        707.3889674077112
-      ],
-      "code": [
-        {
-          "language": "TvM",
-          "comment": "",
-          "argument": {
-            "name": "tvm_glmToTMap"
-          }
-        }
-      ],
-      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/Activation",
-      "colour": "#645CBE"
-    },
-    {
       "id": "677ed87f-c9a3-4fa1-9dc7-a410296cb6f7",
       "name": "tvm_smooth_functionals",
       "class": "tvm_smoothFunctionals",
@@ -2030,7 +1871,7 @@
           "name": "i_SourceDirectory",
           "output": true,
           "outputPort": "ba0eabb9-8826-4fa2-933d-1b1da02e4151",
-          "value": "",
+          "value": "'Scans/Functional/Filtered/'",
           "visible": true,
           "iterator": false
         },
@@ -2051,28 +1892,7 @@
           "name": "i_SmoothingKernel",
           "output": true,
           "outputPort": "6c281935-b11a-4351-9d22-24f1086a2c19",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Qsub",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_Qsub"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "001356fd-4976-4245-bf93-82fbb0201bf7",
-          "input": true,
-          "inputPort": "30dd425e-beb7-4c90-a09f-d2e87967ff16",
-          "name": "i_Qsub",
-          "output": true,
-          "outputPort": "3c9f5185-9a4f-48cb-a2c8-b9010b42df20",
-          "value": "",
+          "value": "[4, 4, 4]",
           "visible": true,
           "iterator": false
         },
@@ -2093,14 +1913,14 @@
           "name": "o_OutputDirectory",
           "output": true,
           "outputPort": "a41932f4-20b9-4ebf-bf55-dc27c0712e0d",
-          "value": "",
+          "value": "'Scans/Functional/Smoothed/'",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        453.70237890193255,
-        574.0114196593092
+        487.87535253474505,
+        585.4530700499342
       ],
       "code": [
         {
@@ -2178,7 +1998,7 @@
           "name": "i_Betas",
           "output": true,
           "outputPort": "efd10153-7347-4421-b1ed-f0679fbccfb7",
-          "value": "",
+          "value": "'Activation/BetasCanonicalHrf.nii'",
           "visible": true,
           "iterator": false
         },
@@ -2220,7 +2040,7 @@
           "name": "i_Resolution",
           "output": true,
           "outputPort": "7e0eacb4-0300-4bf7-ba8d-cfbfd72908e6",
-          "value": "",
+          "value": "50",
           "visible": true,
           "iterator": false
         },
@@ -2234,14 +2054,14 @@
               }
             }
           ],
-          "editable": true,
+          "editable": false,
           "id": "195e13ef-ca24-479e-b9da-508cdedbc1b0",
           "input": true,
           "inputPort": "87f9b2c6-0e75-41aa-b839-53d2ccd8099b",
           "name": "i_Order",
           "output": true,
           "outputPort": "f2e6e606-ed24-45d6-87a7-fbcb18d471e2",
-          "value": "",
+          "value": "5",
           "visible": true,
           "iterator": false
         },
@@ -2262,7 +2082,7 @@
           "name": "i_PhysioType",
           "output": true,
           "outputPort": "24ce5c62-2a6b-47d8-a9e5-4ce9032e0f71",
-          "value": "",
+          "value": "{'Respiration', 'Heartbeat'}",
           "visible": true,
           "iterator": false
         },
@@ -2283,14 +2103,14 @@
           "name": "o_BackProjection",
           "output": true,
           "outputPort": "4090c68e-be30-452c-81c9-63f7724a0a92",
-          "value": "",
+          "value": "{'Activation/RespirationMovie.nii', 'Activation/HeartrateMovie.nii'}",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        1183.6680883055544,
-        946.4664699266409
+        1140.2825902586794,
+        975.9863673875784
       ],
       "code": [
         {
@@ -2306,7 +2126,7 @@
     },
     {
       "id": "78c083d8-c12c-4dfb-b972-4a833fb7195b",
-      "name": "tvm_movie_from4_d",
+      "name": "tvm_movie_from_4d",
       "class": "tvm_movieFrom4D",
       "ports": [
         {
@@ -2347,7 +2167,7 @@
           "name": "i_VolumeFile",
           "output": true,
           "outputPort": "52683ce0-03ef-465a-9e83-5b767a0d2a45",
-          "value": "",
+          "value": "{'Activation/RespirationMovie.nii', 'Activation/HeartrateMovie.nii'}",
           "visible": true,
           "iterator": false
         },
@@ -2389,7 +2209,7 @@
           "name": "i_FramesPerSecond",
           "output": true,
           "outputPort": "ba9140f2-16df-43aa-8797-d511eea2896c",
-          "value": "",
+          "value": "25",
           "visible": true,
           "iterator": false
         },
@@ -2452,7 +2272,7 @@
           "name": "i_Slice",
           "output": true,
           "outputPort": "40e8b4d6-fa45-4463-b385-9b9cba5d5580",
-          "value": "",
+          "value": "5",
           "visible": true,
           "iterator": false
         },
@@ -2494,7 +2314,7 @@
           "name": "o_Movie",
           "output": true,
           "outputPort": "d0dd227b-0dd1-430e-9be9-1c35ad4ffbd8",
-          "value": "",
+          "value": " {'Activation/RespirationMovie.avi', 'Activation/HeartrateMovie.avi'}",
           "visible": true,
           "iterator": false
         }
@@ -5471,6 +5291,154 @@
       ],
       "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/Utilities",
       "colour": "#7FB649"
+    },
+    {
+      "id": "e1dccc7f-029c-435a-a7b7-52ca4e0952d2",
+      "name": "tvm_glm_to_fmap",
+      "class": "tvm_glmToFMap",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "2ec32102-3780-4f76-90f8-1176b09da930",
+          "input": true,
+          "inputPort": "b9c72b86-9121-4a0f-a5df-fe54c9910a8f",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "a4b491b8-524c-4fb4-adc3-040170b978c4",
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "i_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DesignMatrix"
+              }
+            }
+          ],
+          "editable": false,
+          "id": "c95c02f4-080e-4d62-acc2-74c746c02623",
+          "input": true,
+          "inputPort": "e4fa56ba-fbb1-432c-86fc-9c0371b33599",
+          "name": "i_DesignMatrix",
+          "output": true,
+          "outputPort": "372130ae-610b-40f8-b1af-40fd108477f6",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Betas",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Betas"
+              }
+            }
+          ],
+          "editable": false,
+          "id": "20bea6c9-b85a-480d-ac29-6baed26e9096",
+          "input": true,
+          "inputPort": "4bb9188f-59c9-454d-82e8-aee551a7a32d",
+          "name": "i_Betas",
+          "output": true,
+          "outputPort": "c08fa9a2-d30e-41b0-8208-29d27acbca3b",
+          "value": "'Activation/BetasCanonicalHrf.nii'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_ResidualSumOfSquares",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_ResidualSumOfSquares"
+              }
+            }
+          ],
+          "editable": false,
+          "id": "4cf9ced3-efef-485b-b2fc-0aad19a6064e",
+          "input": true,
+          "inputPort": "c1f8cda7-b004-47f3-8cd8-c94831ab37a4",
+          "name": "i_ResidualSumOfSquares",
+          "output": true,
+          "outputPort": "6950bc48-085e-4855-94ff-d5d261d472ae",
+          "value": "'Activation/RssCanonicalHrf.nii'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Contrast",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Contrast"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "4133cd60-4305-4e59-8542-5e236a5402e1",
+          "input": true,
+          "inputPort": "cec64efe-fc59-4023-8460-4bfc6b49e870",
+          "name": "i_Contrast",
+          "output": true,
+          "outputPort": "760e6e6a-45b6-46c7-aa34-c126dea4ce68",
+          "value": "{{'Respiration'},{'Heartbeat'},{'Motion'}};",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_FMap",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_FMap"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "1cdc96cf-aa7f-405e-8425-6919815d79f9",
+          "input": false,
+          "inputPort": false,
+          "name": "o_FMap",
+          "output": true,
+          "outputPort": "9a8ed73b-719e-457a-a42b-acc5057fedfb",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        1230.2505639015799,
+        667.2411334274689
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_glmToFMap"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/Activation",
+      "colour": "#645CBE"
     }
   ],
   "stickies": [],
