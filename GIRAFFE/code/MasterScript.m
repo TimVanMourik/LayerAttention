@@ -29,7 +29,7 @@ tvm_design_constant(configuration);
 
 configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/design3.mat';
-configuration.i_Deletions = {1:3, 1:3, 1:3, 1:3, 1:3, 1:3};
+configuration.i_Deletions = repmat({1:3}, 1, 18);
 configuration.o_DesignMatrix = 'DesignMatrix/basic_design.mat';
 tvm_design_removeVolumes(configuration);
 
@@ -42,7 +42,7 @@ tvm_design_highpassFilter(configuration);
 
 configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/design4.mat';
-configuration.i_MotionFiles = 'Scans/Functional/Realigned/rp_EP3D_*.txt';
+configuration.i_MotionFiles = 'Scans/Functional/Realigned/rp*.txt';
 configuration.o_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 tvm_design_motionRegression(configuration);
 

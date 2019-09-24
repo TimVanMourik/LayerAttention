@@ -861,7 +861,7 @@
           "name": "i_Deletions",
           "output": true,
           "outputPort": "ef9a6b54-39bf-4afb-a9bb-8a9befd346b4",
-          "value": "{1:3, 1:3, 1:3, 1:3, 1:3, 1:3}",
+          "value": "repmat({1:3}, 1, 18)",
           "visible": true,
           "iterator": false
         },
@@ -1094,7 +1094,7 @@
           "name": "i_MotionFiles",
           "output": true,
           "outputPort": "f8d3d7f9-4956-40f1-983d-eadc033914f1",
-          "value": "'Scans/Functional/Realigned/rp_EP3D_*.txt'",
+          "value": "'Scans/Functional/Realigned/rp*.txt'",
           "visible": true,
           "iterator": false
         },
@@ -5346,8 +5346,8 @@
         }
       ],
       "position": [
-        18.691674879820084,
-        905.7468290842448
+        -3.9314482891252283,
+        980.0673857248698
       ],
       "code": [
         {
@@ -5442,6 +5442,15 @@
       "position": [
         4115.346008300781,
         -101.8971176147461
+      ]
+    },
+    {
+      "id": "c3b2b1d6-1cfa-43f0-872a-c1d43b96fa8a",
+      "title": "Save img",
+      "content": "Save the design matrix image",
+      "position": [
+        114.92251586914062,
+        725.9739074707031
       ]
     }
   ],
