@@ -110,10 +110,6 @@ configuration.o_Movie =  {'Activation/RespirationMovie.avi', 'Activation/Heartra
 tvm_movieFrom4D(configuration);
 
 configuration = [];
-configuration.o_FreeSurferFolder = '../Doreti';
-tvm_reconAll(configuration);
-
-configuration = [];
 configuration.i_RegistrationVolume = 'Scans/Functional/MeanFunctional.nii';
 configuration.i_FreeSurferFolder = '../Doreti';
 configuration.i_DegreesOfFreedom = 12;

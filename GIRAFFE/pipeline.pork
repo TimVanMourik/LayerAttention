@@ -101,11 +101,6 @@
       "to": "6e4274ec-897f-4230-83f5-486ac9416286"
     },
     {
-      "id": "9e9e487c-74a5-497e-ae95-86b061570188",
-      "from": "48420fc4-6bcd-44db-991c-7b9952103ea5",
-      "to": "6d7443a1-766a-414e-a494-8ffc4311ec94"
-    },
-    {
       "id": "8d359fe7-eec7-443f-b727-2b6c0cf31ab2",
       "from": "f06f2026-91fb-41dd-95da-f288e5f2bba1",
       "to": "c6d8025d-ffdd-4c0f-bcc3-818984cb8766"
@@ -1459,8 +1454,8 @@
         }
       ],
       "position": [
-        -335.2404255628212,
-        618.2222485287992
+        -377.8458409070595,
+        615.9798779233305
       ],
       "code": [
         {
@@ -1607,8 +1602,8 @@
         }
       ],
       "position": [
-        84.8924270763107,
-        403.69354004288016
+        165.61847077748257,
+        419.39028686905203
       ],
       "code": [
         {
@@ -1713,8 +1708,8 @@
         }
       ],
       "position": [
-        385.1506821245888,
-        571.1353210264967
+        486.0582748980263,
+        591.316778546028
       ],
       "code": [
         {
@@ -1903,8 +1898,8 @@
         }
       ],
       "position": [
-        779.7793504872675,
-        302.232643374531
+        822.3847582021112,
+        340.3532793608591
       ],
       "code": [
         {
@@ -2468,175 +2463,6 @@
       "colour": "#7FB649"
     },
     {
-      "id": "303a103c-1dca-40bc-a8ed-82d1da5a5d4e",
-      "name": "tvm_recon_all",
-      "class": "tvm_reconAll",
-      "ports": [
-        {
-          "base": "i_SubjectDirectory",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_SubjectDirectory"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "5f250d1e-a45b-40f9-b5b8-fa6bd1689cdf",
-          "input": true,
-          "inputPort": "504d263a-19c5-4448-8fa7-f7e7430255d6",
-          "name": "i_SubjectDirectory",
-          "output": true,
-          "outputPort": "f41f302f-4179-46da-9b96-8a61e5318e8e",
-          "value": "",
-          "visible": false,
-          "iterator": false
-        },
-        {
-          "base": "i_Structural",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_Structural"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "0c2e7fd2-5501-4d52-8170-f654baf39ff9",
-          "input": true,
-          "inputPort": "20acbac9-6337-4d8e-baee-28f82274d10e",
-          "name": "i_Structural",
-          "output": true,
-          "outputPort": "c6371e9f-7460-4adf-a157-bab5d1e00c9b",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_HighRes",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_HighRes"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "909799ae-2fe7-484b-afcb-2ee952bdf0ae",
-          "input": true,
-          "inputPort": "e37d7d5f-1dfd-4f5c-b5d2-e5bf8421e7ef",
-          "name": "i_HighRes",
-          "output": true,
-          "outputPort": "7a9ef047-4f8b-4f54-8986-2a6159d9cd16",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_ExpertFile",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_ExpertFile"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "b1c1a9a4-487e-4a1a-be9c-1e3a7d450118",
-          "input": true,
-          "inputPort": "16095ff5-2dbf-40fb-9651-1b32aacfb26c",
-          "name": "i_ExpertFile",
-          "output": true,
-          "outputPort": "fbdf306b-2452-462f-81db-fda543c2d3a4",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_ComputationTime",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_ComputationTime"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "fb54b9a9-b93d-4d91-8a59-3f1f50846ad2",
-          "input": true,
-          "inputPort": "1f23f99d-7f57-4e9f-9f5d-336b0dbde1ec",
-          "name": "i_ComputationTime",
-          "output": true,
-          "outputPort": "7b6c662e-99a7-4198-bcdd-6fa613ac01aa",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Memory",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_Memory"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "5ca8cf05-50f1-45b1-bfad-69a627e5af30",
-          "input": true,
-          "inputPort": "2220a737-022d-4fd5-969c-7e1e1e97ccf2",
-          "name": "i_Memory",
-          "output": true,
-          "outputPort": "b612f607-9af3-43f2-8bee-f467c6821d4d",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "o_FreeSurferFolder",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "o_FreeSurferFolder"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "8e361685-8398-4a27-b672-ebd7cdc796df",
-          "input": false,
-          "inputPort": false,
-          "name": "o_FreeSurferFolder",
-          "output": true,
-          "outputPort": "48420fc4-6bcd-44db-991c-7b9952103ea5",
-          "value": "'../Doreti'",
-          "visible": true,
-          "iterator": false
-        }
-      ],
-      "position": [
-        -3025.3221941067,
-        -702.7956078695606
-      ],
-      "code": [
-        {
-          "language": "TvM",
-          "comment": "",
-          "argument": {
-            "name": "tvm_reconAll"
-          }
-        }
-      ],
-      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/Preprocessing",
-      "colour": "#42AA92"
-    },
-    {
       "id": "6ba47f19-0527-4d81-ab8a-1dab754bdc2f",
       "name": "tvm_use_bbregister",
       "class": "tvm_useBbregister",
@@ -2693,7 +2519,7 @@
               }
             }
           ],
-          "editable": false,
+          "editable": true,
           "id": "f120c04b-bfb2-4981-99ab-db3430b0fcf6",
           "input": true,
           "inputPort": "6d7443a1-766a-414e-a494-8ffc4311ec94",
@@ -3148,8 +2974,8 @@
         }
       ],
       "position": [
-        -2092.359490528973,
-        -835.178849388766
+        -2025.0877620133479,
+        -745.4832317129848
       ],
       "code": [
         {
@@ -3401,8 +3227,8 @@
         }
       ],
       "position": [
-        -1967.3011132372778,
-        -352.7144519359408
+        -1868.6358300341528,
+        -366.16878238027675
       ],
       "code": [
         {
@@ -3676,7 +3502,7 @@
       ],
       "position": [
         -1311.0314265641307,
-        -707.4053762849253
+        -689.4662588532847
       ],
       "code": [
         {
@@ -3781,7 +3607,7 @@
         }
       ],
       "position": [
-        -1148.7707694720805,
+        -1251.9206718158305,
         -123.48353175390008
       ],
       "code": [
@@ -4013,8 +3839,8 @@
         }
       ],
       "position": [
-        1342.8633675533674,
-        -91.19744003222979
+        1480.5135140377424,
+        -32.74327743457354
       ],
       "code": [
         {
@@ -5282,8 +5108,8 @@
         }
       ],
       "position": [
-        3787.1898699323033,
-        177.91456520424936
+        3781.5326433698033,
+        144.91624367104623
       ],
       "code": [
         {
@@ -5446,7 +5272,89 @@
       "colour": "#645CBE"
     }
   ],
-  "stickies": [],
+  "stickies": [
+    {
+      "id": "aa58cdbd-4709-409a-8d13-7ddc48f1af20",
+      "title": "FreeSurfer",
+      "content": "Please run FreeSurfer first and link the folder here!\n\nOr use tvm_reconAll as a wrapper around it.",
+      "position": [
+        -2831.778648376465,
+        -695.8529357910156
+      ]
+    },
+    {
+      "id": "7e2a17bd-749b-4b2d-9948-858db13ec303",
+      "title": "NifTIs",
+      "content": "Start from a directory with your functional files in NifTI format",
+      "position": [
+        -3535.3652114868164,
+        -345.9066376686096
+      ]
+    },
+    {
+      "id": "26b70633-01ac-4799-a610-e52df667d3ee",
+      "title": "Design Matrix",
+      "content": "This part is construction a temporal design matrix, step by step",
+      "position": [
+        -1863.118637084961,
+        479.3124542236328
+      ]
+    },
+    {
+      "id": "f0f2e057-165b-4359-9fc6-12a16da2c505",
+      "title": "Registration",
+      "content": "This part is taking care of the registation",
+      "position": [
+        -1569.6732711791992,
+        -894.4342193603516
+      ]
+    },
+    {
+      "id": "2a8e5b6f-cfb0-42e3-9a5d-0de234e711ba",
+      "title": "GLM",
+      "content": "Running a whole brain GLM here!",
+      "position": [
+        952.9513092041016,
+        106.23582458496094
+      ]
+    },
+    {
+      "id": "2388fb1d-7d65-4840-adda-0d355b64a50b",
+      "title": "RETROICOR",
+      "content": "Just for fun, check out heart rate and respiration and make movies of the effect on the brain.",
+      "position": [
+        1509.3333587646484,
+        1039.9999542236328
+      ]
+    },
+    {
+      "id": "61ea6447-8f45-4b83-b5bd-a5b5fc6eab8e",
+      "title": "Layers",
+      "content": "What we came here for: the layer analysis part of the pipeline.",
+      "position": [
+        2067.4840240478516,
+        -62.78692626953125
+      ]
+    },
+    {
+      "id": "2a5c90f2-a447-4c58-848d-0282443ed306",
+      "title": "Layer GLM",
+      "content": "This is a laminar spatial GLM, constructed based on a region of interest of your choice.",
+      "position": [
+        3488.518112182617,
+        540.3940887451172
+      ]
+    },
+    {
+      "id": "919d4c92-80e4-4003-bf0d-761f920f067d",
+      "title": "Boundaries",
+      "content": "Inspect the cortical surfaces between the layers.",
+      "position": [
+        4115.346008300781,
+        -101.8971176147461
+      ]
+    }
+  ],
   "ui": {
     "showToolboxes": [
       "TvM",
