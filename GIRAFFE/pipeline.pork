@@ -239,6 +239,11 @@
       "id": "3e073cb7-a177-4be9-84af-ba8761e7cd41",
       "from": "a8264c8d-5d01-4787-a75d-621dbca5e900",
       "to": "66598495-1b80-4c00-bcf9-5254f8506c50"
+    },
+    {
+      "id": "7681571e-db91-48cb-8861-60df0d653a69",
+      "from": "a494150a-596e-4975-a263-f4d8055c27cc",
+      "to": "02828cd8-7f60-4a80-82c4-977c7e217a98"
     }
   ],
   "nodes": [
@@ -5270,6 +5275,91 @@
       ],
       "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/Activation",
       "colour": "#645CBE"
+    },
+    {
+      "id": "ecbb6675-3ec4-4c4e-add5-85d3a8ac1090",
+      "name": "tvm_design_save_to_image",
+      "class": "tvm_design_saveToImage",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "4a346003-a662-4ae9-882b-888b3a3de923",
+          "input": true,
+          "inputPort": "8d50424c-d0d3-4640-9728-5a5db54df7f4",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "d98130c7-aa65-4417-8389-0572a72fecff",
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "i_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DesignMatrix"
+              }
+            }
+          ],
+          "editable": false,
+          "id": "4d97501d-f3f2-42bd-bfd9-0b45a99f700b",
+          "input": true,
+          "inputPort": "02828cd8-7f60-4a80-82c4-977c7e217a98",
+          "name": "i_DesignMatrix",
+          "output": true,
+          "outputPort": "bc63d7a3-a257-4eb5-8944-1e57a52e0b57",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_Image",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_Image"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "111ed6cd-2e0f-431a-ba71-e5e7963b793d",
+          "input": false,
+          "inputPort": false,
+          "name": "o_Image",
+          "output": true,
+          "outputPort": "c39e6150-07ef-451b-923b-31e5eb32af67",
+          "value": "'DesignMatrix/design.fig'",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        18.691674879820084,
+        905.7468290842448
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_design_saveToImage"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
+      "colour": "#4E76BA"
     }
   ],
   "stickies": [

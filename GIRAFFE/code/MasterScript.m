@@ -204,4 +204,9 @@ configuration.i_ResidualSumOfSquares = 'Activation/RssCanonicalHrf.nii';
 configuration.i_Contrast = {{'Respiration'},{'Heartbeat'},{'Motion'}};;
 tvm_glmToFMap(configuration);
 
+configuration = [];
+configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
+configuration.o_Image = 'DesignMatrix/design.fig';
+tvm_design_saveToImage(configuration);
+
 % end of script
