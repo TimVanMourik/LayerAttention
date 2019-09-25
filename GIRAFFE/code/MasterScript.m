@@ -6,6 +6,12 @@ configuration.o_MeanFunctional = 'Scans/Functional/MeanFunctional.nii';
 tvm_realignFunctionals(configuration);
 
 configuration = [];
+configuration.i_SourceDirectory = 'Scans/Functional/Realigned';
+configuration.i_SmoothingKernel = [4, 4, 4];
+configuration.o_OutputDirectory = 'Scans/Functional/Smoothed/';
+tvm_smoothFunctionals(configuration);
+
+configuration = [];
 configuration.i_FunctionalFolder = 'Scans/Functional/Realigned';
 configuration.o_DesignMatrix = 'DesignMatrix/design1.mat';
 tvm_design_empty(configuration);
@@ -66,23 +72,9 @@ tvm_design_retroicor(configuration);
 
 configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
-configuration.i_FunctionalFolder = 'Scans/Functional/Realigned';
-configuration.i_Confounds = {'Respiration', 'Heartbeat', 'Motion', 'Filter'};
-configuration.o_FilteredFolder = 'Scans/Functional/Filtered/';
-tvm_regressConfounds(configuration);
-
-configuration = [];
-configuration.i_SourceDirectory = 'Scans/Functional/Filtered/';
-configuration.i_SmoothingKernel = [4, 4, 4];
-configuration.o_OutputDirectory = 'Scans/Functional/Smoothed/';
-tvm_smoothFunctionals(configuration);
-
-configuration = [];
-configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 configuration.i_ReferenceVolume = 'Scans/Functional/MeanFunctional.nii';
 configuration.i_SourceDirectory = 'Scans/Functional/Smoothed/';
-configuration.i_FunctionalFiles = 'Scans/Functional/Filtered/';
-configuration.i_Mask = '../RegionsOfInterest/Brain.nii';
+configuration.i_Mask = 'RegionsOfInterest/Brain.nii';
 configuration.o_Betas = 'Activation/BetasCanonicalHrf.nii';
 configuration.o_ResidualSumOfSquares = 'Activation/RssCanonicalHrf.nii';
 tvm_glm(configuration);
@@ -91,6 +83,8 @@ configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 configuration.i_Betas = 'Activation/BetasCanonicalHrf.nii';
 configuration.i_ResidualSumOfSquares = 'Activation/RssCanonicalHrf.nii';
+configuration.i_Contrast = {{ 'Stimulus_{Right,On}', '-Stimulus_{Right,Off}',  'Stimulus_{Left,On}', '-Stimulus_{Left,Off}'}};
+configuration.o_TMap = {'Activation/T_Stimulus.nii', 'Activation/T_AttentionRight.nii', 'Activation/T_AttentionLeft.nii', 'Activation/T_All.nii'};
 tvm_glmToTMap(configuration);
 
 configuration = [];
@@ -111,7 +105,7 @@ tvm_movieFrom4D(configuration);
 
 configuration = [];
 configuration.i_RegistrationVolume = 'Scans/Functional/MeanFunctional.nii';
-configuration.i_FreeSurferFolder = '../Doreti';
+configuration.i_FreeSurferFolder = 'FreeSurfer';
 configuration.i_DegreesOfFreedom = 12;
 configuration.o_Boundaries = 'Boundaries/bbregister.mat';
 configuration.o_RegisterDat = 'Coregistration/FreeSurfer/bbregister.dat';
@@ -122,7 +116,7 @@ configuration = [];
 configuration.i_ReferenceVolume = 'Scans/Functional/MeanFunctional.nii';
 configuration.i_Boundaries = 'Boundaries/bbregister.mat';
 configuration.i_Axis = 'transversal';
-configuration.o_RegistrationMovie = '../Coregistration/BBR.avi';
+configuration.o_RegistrationMovie = 'Coregistration/BBR.avi';
 tvm_volumeWithBoundariesToMovie(configuration);
 
 configuration = [];
@@ -135,7 +129,7 @@ configuration = [];
 configuration.i_ReferenceVolume = 'Scans/Functional/MeanFunctional.nii';
 configuration.i_Boundaries = 'Boundaries/rbr.mat';
 configuration.i_Axis = 'transversal';
-configuration.o_RegistrationMovie = '../Coregistration/RBR.avi';
+configuration.o_RegistrationMovie = 'Coregistration/RBR.avi';
 tvm_volumeWithBoundariesToMovie(configuration);
 
 configuration = [];
@@ -185,6 +179,14 @@ configuration.i_Layers = 'LevelSets/brain.layers.nii';
 tvm_roiToDesignMatrix(configuration);
 
 configuration = [];
+configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
+configuration.i_FunctionalFolder = 'Scans/Functional/Realigned';
+configuration.i_Confounds = {'Respiration', 'Heartbeat', 'Motion', 'Filter'};
+configuration.o_FilteredFolder = 'Scans/Functional/Filtered/';
+tvm_regressConfounds(configuration);
+
+configuration = [];
+configuration.i_FunctionalFolder = 'Scans/Functional/Filtered/';
 tvm_designMatrixToTimeCourse(configuration);
 
 configuration = [];
@@ -201,7 +203,8 @@ configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 configuration.i_Betas = 'Activation/BetasCanonicalHrf.nii';
 configuration.i_ResidualSumOfSquares = 'Activation/RssCanonicalHrf.nii';
-configuration.i_Contrast = {{'Respiration'},{'Heartbeat'},{'Motion'}};;
+configuration.i_Contrast = {{'Respiration'},{'Heartbeat'},{'Motion'}};
+configuration.o_FMap = {'Activation/F_Respiration.nii', 'Activation/F_Heartrate.nii', 'Activation/F_Motion.nii'};
 tvm_glmToFMap(configuration);
 
 configuration = [];
