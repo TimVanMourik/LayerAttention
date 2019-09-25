@@ -249,6 +249,26 @@
       "id": "69f24c80-8e47-4da3-af18-de5b674adc53",
       "from": "f103387a-5cc9-445a-8cbf-0af172d2b1db",
       "to": "a887e589-a7f7-4336-aff9-68e144d501a0"
+    },
+    {
+      "id": "6497c6e5-961b-4c79-9d83-e30f796a10ae",
+      "from": "7bd8802f-1bb2-4278-83dd-d27b7334cc4b",
+      "to": "cc0ff58c-2f88-41c9-a8fa-aeeb30cc64a7"
+    },
+    {
+      "id": "25c78c34-51a6-4730-960c-8df5cdc04bef",
+      "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
+      "to": "bf86b399-2b21-4a9b-9a31-1e6bd9da9fe1"
+    },
+    {
+      "id": "053a6110-716f-4c4c-ad81-258ea9e03dbf",
+      "from": "bc6eafd2-db64-4c02-aa94-22609748791c",
+      "to": "22730e1f-fa76-4238-b567-cc85fc1029a9"
+    },
+    {
+      "id": "e33e317f-dc11-4ebc-979f-305037b34248",
+      "from": "af490d2d-269f-4c89-8361-8672cf71119c",
+      "to": "3b93a692-05bd-4c72-9989-367247026afa"
     }
   ],
   "nodes": [
@@ -1401,7 +1421,7 @@
         }
       ],
       "position": [
-        -1254.6235976510197,
+        -1256.0250869088322,
         1214.911651506425
       ],
       "code": [
@@ -2071,7 +2091,7 @@
           "name": "i_PhysioType",
           "output": true,
           "outputPort": "24ce5c62-2a6b-47d8-a9e5-4ce9032e0f71",
-          "value": "{'Respiration', 'Heartbeat'}",
+          "value": "{'Heartbeat'}",
           "visible": true,
           "iterator": false
         },
@@ -2092,14 +2112,14 @@
           "name": "o_BackProjection",
           "output": true,
           "outputPort": "4090c68e-be30-452c-81c9-63f7724a0a92",
-          "value": "{'Activation/RespirationMovie.nii', 'Activation/HeartrateMovie.nii'}",
+          "value": "{'Activation/HeartrateMovie.nii'}",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        1257.615964282117,
-        853.3197414110159
+        1272.4810765868044,
+        1160.2163478563284
       ],
       "code": [
         {
@@ -2156,7 +2176,7 @@
           "name": "i_VolumeFile",
           "output": true,
           "outputPort": "52683ce0-03ef-465a-9e83-5b767a0d2a45",
-          "value": "{'Activation/RespirationMovie.nii', 'Activation/HeartrateMovie.nii'}",
+          "value": "{'Activation/HeartrateMovie.nii'}",
           "visible": true,
           "iterator": false
         },
@@ -2303,14 +2323,14 @@
           "name": "o_Movie",
           "output": true,
           "outputPort": "d0dd227b-0dd1-430e-9be9-1c35ad4ffbd8",
-          "value": " {'Activation/RespirationMovie.avi', 'Activation/HeartrateMovie.avi'}",
+          "value": " {'Activation/HeartrateMovie.avi'}",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        1700.1106490829075,
-        895.467203395986
+        1676.648124668845,
+        1180.930582302236
       ],
       "code": [
         {
@@ -5365,6 +5385,407 @@
       ],
       "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
       "colour": "#4E76BA"
+    },
+    {
+      "id": "d76180e3-709e-4bcb-8432-3de50702b63b",
+      "name": "tvm_retroicor_back_project_1",
+      "class": "tvm_retroicorBackProject",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "164584be-d639-4dc7-91e1-a9e89f0f0a12",
+          "input": true,
+          "inputPort": "2695c043-45b5-4f1a-867f-381268ade1b0",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "34d39782-7eb5-4141-8227-d1b00b724d9a",
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "i_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DesignMatrix"
+              }
+            }
+          ],
+          "editable": false,
+          "id": "77ce9d69-287a-461f-ba04-28228d90e34e",
+          "input": true,
+          "inputPort": "bf86b399-2b21-4a9b-9a31-1e6bd9da9fe1",
+          "name": "i_DesignMatrix",
+          "output": true,
+          "outputPort": "84d02407-c4b4-4aa1-b704-9ff6b080b154",
+          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Betas",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Betas"
+              }
+            }
+          ],
+          "editable": false,
+          "id": "9e16af2b-e8d2-4cc2-96e1-3447442cfb77",
+          "input": true,
+          "inputPort": "22730e1f-fa76-4238-b567-cc85fc1029a9",
+          "name": "i_Betas",
+          "output": true,
+          "outputPort": "7e0f9552-5156-45d9-b68f-1e2146a0c351",
+          "value": "'Activation/BetasCanonicalHrf.nii'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_TemplateVolume",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_TemplateVolume"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "49f146e7-55d0-4fc6-a9f4-28844a09c483",
+          "input": true,
+          "inputPort": "6be0464e-e6b4-41b1-acda-38c587a46521",
+          "name": "i_TemplateVolume",
+          "output": true,
+          "outputPort": "edb9e069-0f5e-4ef4-b1e3-63f6b78d8e69",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Resolution",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Resolution"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "52570ae1-e06c-4839-8dd2-8670ed3d7185",
+          "input": true,
+          "inputPort": "e5324a40-febd-4409-ad43-7d41d69d8708",
+          "name": "i_Resolution",
+          "output": true,
+          "outputPort": "1caa7bb0-1e9c-4d29-bf90-776c93509d2f",
+          "value": "50",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Order",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Order"
+              }
+            }
+          ],
+          "editable": false,
+          "id": "b6237dce-11db-4b4a-8d03-7e7221872b60",
+          "input": true,
+          "inputPort": "3b93a692-05bd-4c72-9989-367247026afa",
+          "name": "i_Order",
+          "output": true,
+          "outputPort": "ce181242-8113-46de-be25-09a0a1407a96",
+          "value": "5",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_PhysioType",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_PhysioType"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "1076cd32-e418-4a2d-b037-cca7a0130911",
+          "input": true,
+          "inputPort": "061c53eb-59d9-4453-8859-1fe2a4d5f026",
+          "name": "i_PhysioType",
+          "output": true,
+          "outputPort": "b148bdec-c337-4620-9007-cd00d9710540",
+          "value": "{'Respiration'}",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_BackProjection",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_BackProjection"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "79ac3e86-ad06-422e-b9a8-4da75ae07d4e",
+          "input": false,
+          "inputPort": false,
+          "name": "o_BackProjection",
+          "output": true,
+          "outputPort": "7bd8802f-1bb2-4278-83dd-d27b7334cc4b",
+          "value": "{'Activation/RespirationMovie.nii'}",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        1251.4976781493044,
+        893.1495753953909
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_retroicorBackProject"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/Utilities",
+      "colour": "#7FB649"
+    },
+    {
+      "id": "c0e7eceb-e83f-4046-b750-e19633018a46",
+      "name": "tvm_movie_from_4d_1",
+      "class": "tvm_movieFrom4D",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "74056cb2-774a-407d-a377-b065be4e336d",
+          "input": true,
+          "inputPort": "16a82d46-7d24-4e26-954d-9131f7640fb2",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "92c76289-d885-4f9e-b851-379c6d2bbdb7",
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "i_VolumeFile",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_VolumeFile"
+              }
+            }
+          ],
+          "editable": false,
+          "id": "7311ab92-fc81-4f1f-bf34-19ccef635cf5",
+          "input": true,
+          "inputPort": "cc0ff58c-2f88-41c9-a8fa-aeeb30cc64a7",
+          "name": "i_VolumeFile",
+          "output": true,
+          "outputPort": "0fd2ca2b-39c8-40d8-b455-1074eb40f655",
+          "value": "{'Activation/RespirationMovie.nii'}",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Axis",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Axis"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "26bc3acd-df97-44d4-aeef-cc8afd0d79b7",
+          "input": true,
+          "inputPort": "f3f90910-9db9-46af-98b5-debb8ba64eeb",
+          "name": "i_Axis",
+          "output": true,
+          "outputPort": "2c275c4c-96ea-41de-9eb7-94a1bb684689",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_FramesPerSecond",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_FramesPerSecond"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "37672d9e-5049-42d7-969a-efbbce6b2abb",
+          "input": true,
+          "inputPort": "bf05d8cc-b513-4973-a89a-82abc38fbdf0",
+          "name": "i_FramesPerSecond",
+          "output": true,
+          "outputPort": "5133eba2-341d-4a45-a7e0-ab3f625758fe",
+          "value": "25",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_MovieQuality",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_MovieQuality"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "582ba83b-5aef-4724-b23f-39a12b6cfe31",
+          "input": true,
+          "inputPort": "c71ecd4b-1531-4a99-953e-c21bfbf9b2c5",
+          "name": "i_MovieQuality",
+          "output": true,
+          "outputPort": "1534c690-b917-434f-997f-3fded51f8b78",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_ColorLimits",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_ColorLimits"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "068d9aeb-4d95-4936-b9f6-053350a7c124",
+          "input": true,
+          "inputPort": "a49a5262-ce15-4c0d-b32f-4084f0b82fc4",
+          "name": "i_ColorLimits",
+          "output": true,
+          "outputPort": "3d840bcb-09f0-40b0-8a1a-552cab988eb4",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Slice",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Slice"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "bbf4d5b8-e6cf-4552-9725-cb3282b492d6",
+          "input": true,
+          "inputPort": "51bb0e49-1873-46f8-8f84-bba5f37281d0",
+          "name": "i_Slice",
+          "output": true,
+          "outputPort": "0cf313d2-2793-4b1b-af63-193695d3e7c3",
+          "value": "5",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Contrast",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Contrast"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "e8c67904-dc3a-4092-a50a-56c085bd3cb5",
+          "input": true,
+          "inputPort": "c4d74681-64b8-4076-8601-d7f058f231e7",
+          "name": "i_Contrast",
+          "output": true,
+          "outputPort": "e6cd029f-0d9e-4f92-a799-cedfdbeecab8",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_Movie",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_Movie"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "ce23f637-f402-4142-ab5a-49c2a6a1f384",
+          "input": false,
+          "inputPort": false,
+          "name": "o_Movie",
+          "output": true,
+          "outputPort": "ddc124d1-4806-4fd4-8e2a-59eca1dcbc05",
+          "value": " {'Activation/RespirationMovie.avi'}",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        1676.63518521572,
+        879.1540930444235
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_movieFrom4D"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/Utilities",
+      "colour": "#7FB649"
     }
   ],
   "stickies": [
@@ -5418,8 +5839,8 @@
       "title": "RETROICOR",
       "content": "Just for fun, check out heart rate and respiration and make movies of the effect on the brain.",
       "position": [
-        1423.576156616211,
-        983.9402618408203
+        1914.8599700927734,
+        822.3869171142578
       ]
     },
     {

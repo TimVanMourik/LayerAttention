@@ -92,15 +92,15 @@ configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 configuration.i_Betas = 'Activation/BetasCanonicalHrf.nii';
 configuration.i_Resolution = 50;
 configuration.i_Order = 5;
-configuration.i_PhysioType = {'Respiration', 'Heartbeat'};
-configuration.o_BackProjection = {'Activation/RespirationMovie.nii', 'Activation/HeartrateMovie.nii'};
+configuration.i_PhysioType = {'Heartbeat'};
+configuration.o_BackProjection = {'Activation/HeartrateMovie.nii'};
 tvm_retroicorBackProject(configuration);
 
 configuration = [];
-configuration.i_VolumeFile = {'Activation/RespirationMovie.nii', 'Activation/HeartrateMovie.nii'};
+configuration.i_VolumeFile = {'Activation/HeartrateMovie.nii'};
 configuration.i_FramesPerSecond = 25;
 configuration.i_Slice = 5;
-configuration.o_Movie =  {'Activation/RespirationMovie.avi', 'Activation/HeartrateMovie.avi'};
+configuration.o_Movie =  {'Activation/HeartrateMovie.avi'};
 tvm_movieFrom4D(configuration);
 
 configuration = [];
@@ -211,5 +211,21 @@ configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 configuration.o_Image = 'DesignMatrix/design.fig';
 tvm_design_saveToImage(configuration);
+
+configuration = [];
+configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
+configuration.i_Betas = 'Activation/BetasCanonicalHrf.nii';
+configuration.i_Resolution = 50;
+configuration.i_Order = 5;
+configuration.i_PhysioType = {'Respiration'};
+configuration.o_BackProjection = {'Activation/RespirationMovie.nii'};
+tvm_retroicorBackProject(configuration);
+
+configuration = [];
+configuration.i_VolumeFile = {'Activation/RespirationMovie.nii'};
+configuration.i_FramesPerSecond = 25;
+configuration.i_Slice = 5;
+configuration.o_Movie =  {'Activation/RespirationMovie.avi'};
+tvm_movieFrom4D(configuration);
 
 % end of script
