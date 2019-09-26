@@ -246,11 +246,6 @@
       "to": "26f65115-d1e6-41a2-a786-7aea9bad6ee7"
     },
     {
-      "id": "ad160ead-28b1-428b-95fc-5f2c26f3df24",
-      "from": "99ce2669-8622-4f56-954c-a7bdbcd62095",
-      "to": "dc14ca7c-9394-4c6a-bbdb-a0e6fba53457"
-    },
-    {
       "id": "89abe648-ecdd-4a75-b72f-b9f96e1cf395",
       "from": "99ce2669-8622-4f56-954c-a7bdbcd62095",
       "to": "776cd7b7-03aa-4a52-a691-3837d5428bfd"
@@ -264,6 +259,11 @@
       "id": "34fafcd9-dcde-4bb9-9099-07df1714be69",
       "from": "1667a41f-e745-4e6e-98bd-c07c2ac1bc10",
       "to": "a2980461-077f-45d5-b263-afe72b1827dc"
+    },
+    {
+      "id": "6cd74b2a-266a-41dc-806c-8a7855d5fccc",
+      "from": "99ce2669-8622-4f56-954c-a7bdbcd62095",
+      "to": "dc14ca7c-9394-4c6a-bbdb-a0e6fba53457"
     }
   ],
   "nodes": [
@@ -2824,7 +2824,7 @@
           "name": "i_MinimumVoxels",
           "output": true,
           "outputPort": "ef6c73ca-5232-46b1-ad2c-6eda3692160c",
-          "value": "4",
+          "value": "10",
           "visible": true,
           "iterator": false
         },
@@ -3098,7 +3098,7 @@
           "name": "i_ReferenceVolume",
           "output": true,
           "outputPort": "9ddd7157-ef28-407e-8476-541310a72d90",
-          "value": "",
+          "value": "'Scans/Functional/MeanFunctional.nii'",
           "visible": true,
           "iterator": false
         },

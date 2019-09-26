@@ -114,7 +114,7 @@ tvm_volumeWithBoundariesToMovie(configuration);
 configuration = [];
 configuration.i_ReferenceVolume = 'Scans/Functional/MeanFunctional.nii';
 configuration.i_Boundaries = 'Boundaries/bbregister.mat';
-configuration.i_MinimumVoxels = 4;
+configuration.i_MinimumVoxels = 10;
 configuration.i_MinimumVertices = 100;
 configuration.i_CuboidElements = true;
 configuration.i_Tetrahedra = true;
@@ -128,6 +128,7 @@ configuration.o_DisplacementMap = 'Boundaries/Displacement.nii';
 tvm_recursiveBoundaryRegistration(configuration);
 
 configuration = [];
+configuration.i_ReferenceVolume = 'Scans/Functional/MeanFunctional.nii';
 configuration.i_Boundaries = 'Boundaries/rbr.mat';
 configuration.i_Axis = 'transversal';
 configuration.o_RegistrationMovie = 'Coregistration/RBR.avi';
