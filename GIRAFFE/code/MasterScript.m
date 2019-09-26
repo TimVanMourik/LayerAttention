@@ -82,14 +82,6 @@ tvm_glm(configuration);
 configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 configuration.i_Betas = 'Activation/BetasCanonicalHrf.nii';
-configuration.i_ResidualSumOfSquares = 'Activation/RssCanonicalHrf.nii';
-configuration.i_Contrast = {{ 'Stimulus_{Right,On}', '-Stimulus_{Right,Off}',  'Stimulus_{Left,On}', '-Stimulus_{Left,Off}'}};
-configuration.o_TMap = {'Activation/T_Stimulus.nii', 'Activation/T_AttentionRight.nii', 'Activation/T_AttentionLeft.nii', 'Activation/T_All.nii'};
-tvm_glmToTMap(configuration);
-
-configuration = [];
-configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
-configuration.i_Betas = 'Activation/BetasCanonicalHrf.nii';
 configuration.i_Resolution = 50;
 configuration.i_Order = 5;
 configuration.i_PhysioType = {'Heartbeat'};
@@ -175,7 +167,23 @@ configuration.o_LevelSet = 'LevelSets/brain.levels.nii';
 tvm_volumetricLayering(configuration);
 
 configuration = [];
+configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
+configuration.i_Betas = 'Activation/BetasCanonicalHrf.nii';
+configuration.i_ResidualSumOfSquares = 'Activation/RssCanonicalHrf.nii';
+configuration.i_Contrast = {{ 'Stimulus_{Right,On}', '-Stimulus_{Right,Off}',  'Stimulus_{Left,On}', '-Stimulus_{Left,Off}'}};
+configuration.o_TMap = {'Activation/T_Stimulus.nii'};
+tvm_glmToTMap(configuration);
+
+configuration = [];
+configuration.i_Volumes = {'Activation/T_Stimulus.nii'};
+configuration.i_Threshold = 7;
+configuration.o_ThresholdedVolumes = {'RegionsOfInterest/StimulusActivation.nii'};
+tvm_thresholdVolumes(configuration);
+
+configuration = [];
+configuration.i_ROI = {'RegionsOfInterest/StimulusActivation.nii'};
 configuration.i_Layers = 'LevelSets/brain.layers.nii';
+configuration.o_DesignMatrix = {'DesignMatrix/StimulusActivation.mat'};;
 tvm_roiToDesignMatrix(configuration);
 
 configuration = [];
@@ -186,7 +194,10 @@ configuration.o_FilteredFolder = 'Scans/Functional/Filtered/';
 tvm_regressConfounds(configuration);
 
 configuration = [];
+configuration.i_DesignMatrix = {'DesignMatrix/StimulusActivation.mat'};;
 configuration.i_FunctionalFolder = 'Scans/Functional/Filtered/';
+configuration.i_RegressionApproach = 'OLS';
+configuration.o_TimeCourse = {'TimeCourses/StimulusActivation.mat'};;
 tvm_designMatrixToTimeCourse(configuration);
 
 configuration = [];
