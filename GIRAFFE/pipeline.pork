@@ -1,16 +1,6 @@
 {
   "links": [
     {
-      "id": "67fd3312-a7ee-4eba-9a22-b9b1263546cd",
-      "from": "c3623ba1-7646-4bea-81d4-4ea2dea781b1",
-      "to": "b70a3179-1e7e-463f-a419-b64936836b1d"
-    },
-    {
-      "id": "91f33550-0d1a-4b20-943c-fb68eb733006",
-      "from": "f2a4fac2-e721-4dbc-9f38-f2f9f31b6a07",
-      "to": "facd87e5-b997-40ff-b114-e9dd1f82bc52"
-    },
-    {
       "id": "f04b0e24-f6f2-49d9-951d-ea2cad387215",
       "from": "a66fc7f6-3bc7-41db-aa4c-01406d7e22e9",
       "to": "f80368d6-dc2c-492d-8d19-2840da637f23"
@@ -19,11 +9,6 @@
       "id": "86775e7f-7215-4517-9eba-33d454ccb9bd",
       "from": "a812aa74-fceb-4c76-aef0-6123d8a6654a",
       "to": "1e2f83e7-23c0-4a97-8fc4-2f829326fac8"
-    },
-    {
-      "id": "cf40d927-c096-454c-af2a-17869e792f24",
-      "from": "f0e60cd3-c942-47ce-b0d6-23d8e34b4431",
-      "to": "b80bf154-9d4f-41d6-b34f-5a877c8875c3"
     },
     {
       "id": "0f4169f0-fa90-4a5e-b057-bfa9f9a9be6a",
@@ -76,16 +61,6 @@
       "to": "1e9090d3-9baa-48a0-a336-8a9a96e1cfc6"
     },
     {
-      "id": "4e4e096b-73e3-4b4f-99d9-3ddcc79e29a7",
-      "from": "7fb7be95-e5dc-4c3c-b203-22f9b5e4e2ac",
-      "to": "7c420508-b026-46bd-bd11-99070bc24553"
-    },
-    {
-      "id": "888e9bd3-53c5-4cd6-87f1-94d213fe10e3",
-      "from": "1667a41f-e745-4e6e-98bd-c07c2ac1bc10",
-      "to": "6e4274ec-897f-4230-83f5-486ac9416286"
-    },
-    {
       "id": "8d359fe7-eec7-443f-b727-2b6c0cf31ab2",
       "from": "f06f2026-91fb-41dd-95da-f288e5f2bba1",
       "to": "c6d8025d-ffdd-4c0f-bcc3-818984cb8766"
@@ -94,11 +69,6 @@
       "id": "61d175a0-9eb1-49a5-bd95-edfccad4e541",
       "from": "1667a41f-e745-4e6e-98bd-c07c2ac1bc10",
       "to": "bc11e038-37fe-4b07-b386-0e37840d26fe"
-    },
-    {
-      "id": "e54d7ecb-1df3-4bba-9633-e7893e413d9f",
-      "from": "7fb7be95-e5dc-4c3c-b203-22f9b5e4e2ac",
-      "to": "26f65115-d1e6-41a2-a786-7aea9bad6ee7"
     },
     {
       "id": "73e94649-aa24-42d6-b36f-e2e648bf2bd4",
@@ -166,21 +136,6 @@
       "to": "e66b3802-8ad0-4381-8b9d-96c0d1073eb8"
     },
     {
-      "id": "0c6624d5-34fd-4b63-ab10-9e791161f43c",
-      "from": "87b9c640-6746-4430-8ed3-4ca8bb8a8000",
-      "to": "12d24829-5d58-4ae0-a27c-5abaa669a839"
-    },
-    {
-      "id": "5604c811-01f7-4477-a3cd-d1bc8a72a737",
-      "from": "55714a11-accc-4b16-a8ce-2e61b0331c5b",
-      "to": "dc14ca7c-9394-4c6a-bbdb-a0e6fba53457"
-    },
-    {
-      "id": "8fb268ed-6335-44e5-af7e-4f4a0bfe115e",
-      "from": "55714a11-accc-4b16-a8ce-2e61b0331c5b",
-      "to": "776cd7b7-03aa-4a52-a691-3837d5428bfd"
-    },
-    {
       "id": "fd09de1c-a182-44e6-ba3d-a9fbf62cf645",
       "from": "f06f2026-91fb-41dd-95da-f288e5f2bba1",
       "to": "90c6b93a-5665-4ec9-bf03-25cc56bb01aa"
@@ -204,11 +159,6 @@
       "id": "a3d7285b-89fd-4497-8e94-86a3adc2c9d9",
       "from": "2800de29-3b14-4cb5-9218-58a10b70d690",
       "to": "87f9b2c6-0e75-41aa-b839-53d2ccd8099b"
-    },
-    {
-      "id": "3e073cb7-a177-4be9-84af-ba8761e7cd41",
-      "from": "a8264c8d-5d01-4787-a75d-621dbca5e900",
-      "to": "66598495-1b80-4c00-bcf9-5254f8506c50"
     },
     {
       "id": "7681571e-db91-48cb-8861-60df0d653a69",
@@ -264,6 +214,56 @@
       "id": "653366ef-62f5-4321-a8aa-8d6b6414d07a",
       "from": "34b9341c-89c4-4f7f-9a59-a7f314406850",
       "to": "7709fd2f-4826-4bf9-a26d-e5f4738a8910"
+    },
+    {
+      "id": "9e05864c-d53d-47e2-bfcc-2ea0a233fd05",
+      "from": "f0e60cd3-c942-47ce-b0d6-23d8e34b4431",
+      "to": "b70a3179-1e7e-463f-a419-b64936836b1d"
+    },
+    {
+      "id": "c8183b6e-b7b6-4039-a3f2-15bee554d20e",
+      "from": "f2a4fac2-e721-4dbc-9f38-f2f9f31b6a07",
+      "to": "b80bf154-9d4f-41d6-b34f-5a877c8875c3"
+    },
+    {
+      "id": "269807b0-9ad6-40d1-b59f-0336b161058b",
+      "from": "a8264c8d-5d01-4787-a75d-621dbca5e900",
+      "to": "6c1c9f90-ae45-4f65-9954-377550826891"
+    },
+    {
+      "id": "f5b3a393-45c6-4792-98bf-a7c7c1957ad7",
+      "from": "a5bcffb4-6ed1-49cc-b9b1-dcc6bb632861",
+      "to": "facd87e5-b997-40ff-b114-e9dd1f82bc52"
+    },
+    {
+      "id": "94c74dbf-9e52-4863-85ec-98d7cddbb996",
+      "from": "585d7f9b-c331-4bfb-a41c-bd184801cdad",
+      "to": "7c420508-b026-46bd-bd11-99070bc24553"
+    },
+    {
+      "id": "f45501fd-0ecd-4652-8638-0c9d0c4d0395",
+      "from": "585d7f9b-c331-4bfb-a41c-bd184801cdad",
+      "to": "26f65115-d1e6-41a2-a786-7aea9bad6ee7"
+    },
+    {
+      "id": "ad160ead-28b1-428b-95fc-5f2c26f3df24",
+      "from": "99ce2669-8622-4f56-954c-a7bdbcd62095",
+      "to": "dc14ca7c-9394-4c6a-bbdb-a0e6fba53457"
+    },
+    {
+      "id": "89abe648-ecdd-4a75-b72f-b9f96e1cf395",
+      "from": "99ce2669-8622-4f56-954c-a7bdbcd62095",
+      "to": "776cd7b7-03aa-4a52-a691-3837d5428bfd"
+    },
+    {
+      "id": "e4249c7b-966a-45c8-9fd7-74f7edfd986c",
+      "from": "87b9c640-6746-4430-8ed3-4ca8bb8a8000",
+      "to": "c9f816a8-ca48-4fca-894d-92f5d1771ad2"
+    },
+    {
+      "id": "34fafcd9-dcde-4bb9-9099-07df1714be69",
+      "from": "1667a41f-e745-4e6e-98bd-c07c2ac1bc10",
+      "to": "a2980461-077f-45d5-b263-afe72b1827dc"
     }
   ],
   "nodes": [
@@ -379,8 +379,8 @@
         }
       ],
       "position": [
-        -3663.2759606929358,
-        -106.92988615824972
+        -3720.7371423335608,
+        -108.3313801844338
       ],
       "code": [
         {
@@ -501,9 +501,9 @@
       "colour": "#42AA92"
     },
     {
-      "id": "4a7f7f49-d1dc-4e28-91cd-16124c264246",
-      "name": "tvm_design_empty_1",
-      "class": "tvm_design_empty",
+      "id": "b2878ea3-a31c-4b79-bf33-1a31992ec82d",
+      "name": "tvm_design_initialise",
+      "class": "tvm_design_initialise",
       "ports": [
         {
           "base": "i_SubjectDirectory",
@@ -516,12 +516,12 @@
             }
           ],
           "editable": true,
-          "id": "273d460f-2054-45c1-b3d4-538e3a825643",
+          "id": "11ccb6ca-2d38-4676-835b-69e7c9eca678",
           "input": true,
-          "inputPort": "bdaa1f22-b50c-4676-95fe-395302ccae56",
+          "inputPort": "a85b6198-1817-4181-9555-3f9254b11fe0",
           "name": "i_SubjectDirectory",
           "output": true,
-          "outputPort": "bab0aad8-3f41-4298-b40c-c6bed3b48acf",
+          "outputPort": "4a422c67-9ce1-4394-874f-091def846630",
           "value": "",
           "visible": false,
           "iterator": false
@@ -537,14 +537,14 @@
             }
           ],
           "editable": true,
-          "id": "fa8053a4-0555-403e-80df-5d91aaf9210b",
+          "id": "2d3060b8-4937-479a-a9b4-bfd465ac78a1",
           "input": true,
-          "inputPort": "50bb02ff-1346-4f0a-b9c1-882803a526df",
+          "inputPort": "52c8545c-e7d2-48a2-ab3c-c1e08caba831",
           "name": "i_FunctionalFiles",
           "output": true,
-          "outputPort": "3b3e7081-bf79-47fb-a5a2-020b5f394c97",
+          "outputPort": "73295a0e-d043-4c17-8f22-5d3559221c43",
           "value": "",
-          "visible": false,
+          "visible": true,
           "iterator": false
         },
         {
@@ -558,12 +558,12 @@
             }
           ],
           "editable": false,
-          "id": "cc9ad3db-9f3c-42ce-9a0b-88fabe252569",
+          "id": "d098efbc-5ddf-400b-82d6-390b395f5b37",
           "input": true,
-          "inputPort": "66598495-1b80-4c00-bcf9-5254f8506c50",
+          "inputPort": "6c1c9f90-ae45-4f65-9954-377550826891",
           "name": "i_FunctionalFolder",
           "output": true,
-          "outputPort": "c5975d59-8dd3-4ba1-b112-18df0626ae7c",
+          "outputPort": "c460c527-6846-4f14-b30d-3693019f2fb3",
           "value": "'Scans/Functional/Realigned'",
           "visible": true,
           "iterator": false
@@ -579,27 +579,112 @@
             }
           ],
           "editable": true,
-          "id": "d6ab88d6-07cb-4351-883a-dcacfcda5fff",
+          "id": "4965e67f-5ee9-4c23-907d-552845cccca2",
           "input": false,
           "inputPort": false,
           "name": "o_DesignMatrix",
           "output": true,
-          "outputPort": "c3623ba1-7646-4bea-81d4-4ea2dea781b1",
-          "value": "'DesignMatrix/design1.mat'",
+          "outputPort": "a5bcffb4-6ed1-49cc-b9b1-dcc6bb632861",
+          "value": "'DesignMatrix/design_init.mat'",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        -3300.578921939964,
-        370.13334746664907
+        -3341.897398191052,
+        397.9601640882033
       ],
       "code": [
         {
           "language": "TvM",
           "comment": "",
           "argument": {
-            "name": "tvm_design_empty"
+            "name": "tvm_design_initialise"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
+      "colour": "#4E76BA"
+    },
+    {
+      "id": "60f64a00-c029-4a32-924a-e15c328eacd7",
+      "name": "tvm_design_constant_1",
+      "class": "tvm_design_constant",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "9fa5b357-8dc4-4c9c-9b4c-673d2c6bcf71",
+          "input": true,
+          "inputPort": "dcf5ad8b-52ea-46bf-8415-eb65c4db1486",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "a2113f0f-e00f-4122-a883-1dd9056dc173",
+          "value": "",
+          "visible": false,
+          "iterator": false
+        },
+        {
+          "base": "i_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_DesignMatrix"
+              }
+            }
+          ],
+          "editable": false,
+          "id": "fa95810f-4c0d-4d12-9064-2a0d24639574",
+          "input": true,
+          "inputPort": "facd87e5-b997-40ff-b114-e9dd1f82bc52",
+          "name": "i_DesignMatrix",
+          "output": true,
+          "outputPort": "33e4dff9-0335-4783-a745-75bcd1245c05",
+          "value": "'DesignMatrix/design_init.mat'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_DesignMatrix",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_DesignMatrix"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "398816bc-fffb-47c7-bf2a-0a926a5ed89f",
+          "input": false,
+          "inputPort": false,
+          "name": "o_DesignMatrix",
+          "output": true,
+          "outputPort": "f0e60cd3-c942-47ce-b0d6-23d8e34b4431",
+          "value": "'DesignMatrix/design_mean.mat'",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        -3037.638429220478,
+        500.9313800875357
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_design_constant"
           }
         }
       ],
@@ -649,7 +734,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "1dd36206-1c4f-418c-84da-8107ca4bb61f",
-          "value": "'DesignMatrix/design1.mat'",
+          "value": "'DesignMatrix/design_mean.mat'",
           "visible": true,
           "iterator": false
         },
@@ -817,14 +902,14 @@
           "name": "o_DesignMatrix",
           "output": true,
           "outputPort": "f2a4fac2-e721-4dbc-9f38-f2f9f31b6a07",
-          "value": "'DesignMatrix/design2.mat'",
+          "value": "'DesignMatrix/design_stim.mat'",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        -2992.071664759808,
-        423.8352206028843
+        -2736.392221400433,
+        588.342239645853
       ],
       "code": [
         {
@@ -832,91 +917,6 @@
           "comment": "",
           "argument": {
             "name": "tvm_design_stimulus"
-          }
-        }
-      ],
-      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/DesignMatrix",
-      "colour": "#4E76BA"
-    },
-    {
-      "id": "60f64a00-c029-4a32-924a-e15c328eacd7",
-      "name": "tvm_design_constant_1",
-      "class": "tvm_design_constant",
-      "ports": [
-        {
-          "base": "i_SubjectDirectory",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_SubjectDirectory"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "9fa5b357-8dc4-4c9c-9b4c-673d2c6bcf71",
-          "input": true,
-          "inputPort": "dcf5ad8b-52ea-46bf-8415-eb65c4db1486",
-          "name": "i_SubjectDirectory",
-          "output": true,
-          "outputPort": "a2113f0f-e00f-4122-a883-1dd9056dc173",
-          "value": "",
-          "visible": false,
-          "iterator": false
-        },
-        {
-          "base": "i_DesignMatrix",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_DesignMatrix"
-              }
-            }
-          ],
-          "editable": false,
-          "id": "fa95810f-4c0d-4d12-9064-2a0d24639574",
-          "input": true,
-          "inputPort": "facd87e5-b997-40ff-b114-e9dd1f82bc52",
-          "name": "i_DesignMatrix",
-          "output": true,
-          "outputPort": "33e4dff9-0335-4783-a745-75bcd1245c05",
-          "value": "'DesignMatrix/design2.mat'",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "o_DesignMatrix",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "o_DesignMatrix"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "398816bc-fffb-47c7-bf2a-0a926a5ed89f",
-          "input": false,
-          "inputPort": false,
-          "name": "o_DesignMatrix",
-          "output": true,
-          "outputPort": "f0e60cd3-c942-47ce-b0d6-23d8e34b4431",
-          "value": "'DesignMatrix/design3.mat'",
-          "visible": true,
-          "iterator": false
-        }
-      ],
-      "position": [
-        -2684.840089376728,
-        623.8160846773794
-      ],
-      "code": [
-        {
-          "language": "TvM",
-          "comment": "",
-          "argument": {
-            "name": "tvm_design_constant"
           }
         }
       ],
@@ -966,7 +966,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "8a7f5d28-b7ed-4883-9232-81af07fe595c",
-          "value": "'DesignMatrix/design3.mat'",
+          "value": "'DesignMatrix/design_stim.mat'",
           "visible": true,
           "iterator": false
         },
@@ -1008,7 +1008,7 @@
           "name": "o_DesignMatrix",
           "output": true,
           "outputPort": "9bee663e-ca8b-485d-8256-d019b8a4e6a7",
-          "value": "'DesignMatrix/basic_design.mat'",
+          "value": "'DesignMatrix/basic_remove_vols.mat'",
           "visible": true,
           "iterator": false
         }
@@ -1072,7 +1072,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "5cc05f5c-dfea-4edd-8509-29c176797445",
-          "value": "'DesignMatrix/basic_design.mat'",
+          "value": "'DesignMatrix/basic_remove_vols.mat'",
           "visible": true,
           "iterator": false
         },
@@ -1135,7 +1135,7 @@
           "name": "o_DesignMatrix",
           "output": true,
           "outputPort": "baab041a-8ff6-4303-98d9-ffd00ed64a35",
-          "value": "'DesignMatrix/design4.mat'",
+          "value": "'DesignMatrix/design_filtered.mat'",
           "visible": true,
           "iterator": false
         }
@@ -1199,7 +1199,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "fb889723-11cf-49bf-9457-12d7fe480939",
-          "value": "'DesignMatrix/design4.mat'",
+          "value": "'DesignMatrix/design_filtered.mat'",
           "visible": true,
           "iterator": false
         },
@@ -1241,7 +1241,7 @@
           "name": "o_DesignMatrix",
           "output": true,
           "outputPort": "a66fc7f6-3bc7-41db-aa4c-01406d7e22e9",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "value": "'DesignMatrix/design_motion.mat'",
           "visible": true,
           "iterator": false
         }
@@ -1305,7 +1305,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "bdf56e3e-d3ea-47bb-a986-d9f138b2abc7",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "value": "'DesignMatrix/design_motion.mat'",
           "visible": true,
           "iterator": false
         },
@@ -1410,7 +1410,7 @@
           "name": "o_DesignMatrix",
           "output": true,
           "outputPort": "a812aa74-fceb-4c76-aef0-6123d8a6654a",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "value": "'DesignMatrix/design_resp.mat'",
           "visible": true,
           "iterator": false
         }
@@ -1474,7 +1474,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "8eab3dcd-0078-41d4-ba62-c6d68c0097f3",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "value": "'DesignMatrix/design_resp.mat'",
           "visible": true,
           "iterator": false
         },
@@ -1579,7 +1579,7 @@
           "name": "o_DesignMatrix",
           "output": true,
           "outputPort": "a494150a-596e-4975-a263-f4d8055c27cc",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "value": "'DesignMatrix/Design.mat'",
           "visible": true,
           "iterator": false
         }
@@ -1643,7 +1643,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "value": "'DesignMatrix/Design.mat'",
           "visible": true,
           "iterator": false
         },
@@ -2703,8 +2703,8 @@
         }
       ],
       "position": [
-        -2073.421013966473,
-        -810.4832317129848
+        -2143.495720997723,
+        -802.0742961661098
       ],
       "code": [
         {
@@ -2719,8 +2719,8 @@
       "colour": "#7FB649"
     },
     {
-      "id": "fae9342d-11b6-4eff-ad02-68c7a8c55424",
-      "name": "tvm_recursive_boundary_registration",
+      "id": "b1107190-255c-419a-bd32-2a3dea59269f",
+      "name": "tvm_recursive_boundary_registration_1",
       "class": "tvm_recursiveBoundaryRegistration",
       "ports": [
         {
@@ -2734,12 +2734,12 @@
             }
           ],
           "editable": true,
-          "id": "eaf86413-9aa8-4883-b307-88b26c54b587",
+          "id": "d8452912-61d6-403c-8da9-26d7ef378434",
           "input": true,
-          "inputPort": "9b80f577-e8bf-4e22-b6ce-fb943491985a",
+          "inputPort": "1fca1659-c5ea-4d86-9caf-605b28ad760c",
           "name": "i_SubjectDirectory",
           "output": true,
-          "outputPort": "f5454219-ba0e-4f5a-9730-84b75d358140",
+          "outputPort": "342db413-461f-4908-8f6a-84599ad5ba32",
           "value": "",
           "visible": false,
           "iterator": false
@@ -2755,12 +2755,12 @@
             }
           ],
           "editable": false,
-          "id": "0bec37a7-9b11-40ec-8d9b-94a1192a1513",
+          "id": "d2b996f1-d44b-435f-b053-e68c4dbd0685",
           "input": true,
-          "inputPort": "12d24829-5d58-4ae0-a27c-5abaa669a839",
+          "inputPort": "c9f816a8-ca48-4fca-894d-92f5d1771ad2",
           "name": "i_ReferenceVolume",
           "output": true,
-          "outputPort": "55714a11-accc-4b16-a8ce-2e61b0331c5b",
+          "outputPort": "99ce2669-8622-4f56-954c-a7bdbcd62095",
           "value": "'Scans/Functional/MeanFunctional.nii'",
           "visible": true,
           "iterator": false
@@ -2776,12 +2776,12 @@
             }
           ],
           "editable": false,
-          "id": "04d7b6fc-5dba-4535-a8a2-dcada2c388f5",
+          "id": "4f6f5ec1-6f20-4284-9708-daac4a7efec7",
           "input": true,
-          "inputPort": "6e4274ec-897f-4230-83f5-486ac9416286",
+          "inputPort": "a2980461-077f-45d5-b263-afe72b1827dc",
           "name": "i_Boundaries",
           "output": true,
-          "outputPort": "1eabcb7c-bbd9-44ce-b27c-33cd0b97acac",
+          "outputPort": "2b48c142-754b-499c-8e2a-088cc457daa6",
           "value": "'Boundaries/bbregister.mat'",
           "visible": true,
           "iterator": false
@@ -2797,12 +2797,12 @@
             }
           ],
           "editable": true,
-          "id": "6e710ee3-20cb-4e63-a210-d22906e4bdff",
+          "id": "c199dffa-cda8-41dd-99e5-87d96ef117d6",
           "input": true,
-          "inputPort": "a58e9ce7-c7de-4e01-933d-1f4575553452",
+          "inputPort": "5d8aab84-dd1b-4827-b254-0b1cbdd86128",
           "name": "i_Mask",
           "output": true,
-          "outputPort": "f2686ac6-7453-4efd-8c55-ca634069ff59",
+          "outputPort": "e39b7014-aed5-4221-af9f-a57cf53d2f6e",
           "value": "",
           "visible": true,
           "iterator": false
@@ -2818,13 +2818,13 @@
             }
           ],
           "editable": true,
-          "id": "7a39e974-8c6e-4565-a197-9a0f65594523",
+          "id": "87cb90df-74f7-47b2-841e-395038b51b9c",
           "input": true,
-          "inputPort": "972710f1-a736-4195-8cb0-56a3c5e4a237",
+          "inputPort": "453a0e60-04b6-4439-9815-e4e45acf863b",
           "name": "i_MinimumVoxels",
           "output": true,
-          "outputPort": "db7381ad-2021-4de7-b94d-c72342eba8b6",
-          "value": "",
+          "outputPort": "ef6c73ca-5232-46b1-ad2c-6eda3692160c",
+          "value": "4",
           "visible": true,
           "iterator": false
         },
@@ -2839,13 +2839,13 @@
             }
           ],
           "editable": true,
-          "id": "7e4b0f36-84d8-45a7-9117-660bc5f81044",
+          "id": "f84e425a-86e2-47e7-9ec6-e34f94b4004a",
           "input": true,
-          "inputPort": "47b3528f-53e9-4e62-b3a7-4033c63b6a4b",
+          "inputPort": "0c201e42-a215-490a-be9b-cbd7d3448e31",
           "name": "i_MinimumVertices",
           "output": true,
-          "outputPort": "0088b63f-6a1b-4ab7-b654-8a39ce3c8407",
-          "value": "",
+          "outputPort": "09d6e67d-99c7-4c9f-b684-c278baad4b38",
+          "value": "100",
           "visible": true,
           "iterator": false
         },
@@ -2860,13 +2860,13 @@
             }
           ],
           "editable": true,
-          "id": "8709c6f7-5860-4aee-a6b3-c428d57fcdac",
+          "id": "477eae33-7a31-4a62-aa40-7d6f23f66901",
           "input": true,
-          "inputPort": "81a78398-2f11-44ec-93ae-05c3c6701961",
+          "inputPort": "8059d3a4-a28e-414f-ba53-d6a3d63ee1a3",
           "name": "i_CuboidElements",
           "output": true,
-          "outputPort": "12eafdd6-5d34-4c2a-93ca-7695836ecad8",
-          "value": "",
+          "outputPort": "52d6316b-d232-4855-ae65-957ff71f1161",
+          "value": "true",
           "visible": true,
           "iterator": false
         },
@@ -2881,13 +2881,13 @@
             }
           ],
           "editable": true,
-          "id": "77b7205f-65c4-4a6c-a4e2-6b73513d3556",
+          "id": "7dd7d88c-5978-4909-acc4-0c8428c42cea",
           "input": true,
-          "inputPort": "56571c2d-d35b-470a-8be8-b523965444f5",
+          "inputPort": "df38aeeb-6aa2-42d0-8574-838e85f16001",
           "name": "i_Tetrahedra",
           "output": true,
-          "outputPort": "4a8d20fa-abef-4c02-840d-ba9d873b56de",
-          "value": "",
+          "outputPort": "c4088409-9877-49bd-9a9f-e62bc668166a",
+          "value": "true",
           "visible": true,
           "iterator": false
         },
@@ -2902,13 +2902,97 @@
             }
           ],
           "editable": true,
-          "id": "b5fa9ae5-5ac9-4462-a82f-66cd79034834",
+          "id": "bbad62d8-7634-4dd2-8836-479f94a9bee1",
           "input": true,
-          "inputPort": "c50bf943-149f-4f55-8003-6ee4efa56c6a",
+          "inputPort": "baa74594-4a96-4868-b63f-a414db080bfa",
           "name": "i_NeighbourSmoothing",
           "output": true,
-          "outputPort": "d6f03b87-b00f-4ccc-8aee-21c83a2c88e4",
-          "value": "",
+          "outputPort": "dde103fe-8f1c-400b-b277-b2c512e70a5f",
+          "value": "0.1",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Mode",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Mode"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "9ab3385a-42ba-431e-aa28-2f9680385e35",
+          "input": true,
+          "inputPort": "fe17b0f5-8679-4cc6-92ae-6b4a22459319",
+          "name": "i_Mode",
+          "output": true,
+          "outputPort": "ace1ca02-3159-4228-b2f1-8c1431fa1757",
+          "value": "'syty'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_ReverseContrast",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_ReverseContrast"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "4f06df3d-71fd-453c-a0cc-db48e2cfe739",
+          "input": true,
+          "inputPort": "acdaab59-6dd0-4d44-abc4-8dba12fd1c00",
+          "name": "i_ReverseContrast",
+          "output": true,
+          "outputPort": "aced3dc3-c842-4b80-9d2a-0cc07f9f64ae",
+          "value": "true",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_OptimisationMethod",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_OptimisationMethod"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "1a4eb9be-a4cd-4489-a5e8-fb6418c18598",
+          "input": true,
+          "inputPort": "a217d7b6-7a5b-458b-bf3a-c5c19f792b83",
+          "name": "i_OptimisationMethod",
+          "output": true,
+          "outputPort": "bc2917a9-ff2d-4bb4-87d2-bf8af6e0ff63",
+          "value": "'GreveFischl'",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_ContrastMethod",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_ContrastMethod"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "4f684ca3-d126-4eab-9539-e8b96be4d0c3",
+          "input": true,
+          "inputPort": "ef9b2097-f00c-4d30-a5c8-3db551159271",
+          "name": "i_ContrastMethod",
+          "output": true,
+          "outputPort": "9fee0be4-5400-4f50-9008-97bdeec147a1",
+          "value": "'average'",
           "visible": true,
           "iterator": false
         },
@@ -2923,12 +3007,12 @@
             }
           ],
           "editable": true,
-          "id": "2deede77-5564-4e53-83fd-adecb566dd0f",
+          "id": "f1257d72-3c8a-4307-b563-28203961053e",
           "input": false,
           "inputPort": false,
           "name": "o_Boundaries",
           "output": true,
-          "outputPort": "7fb7be95-e5dc-4c3c-b203-22f9b5e4e2ac",
+          "outputPort": "585d7f9b-c331-4bfb-a41c-bd184801cdad",
           "value": "'Boundaries/rbr.mat'",
           "visible": true,
           "iterator": false
@@ -2944,20 +3028,20 @@
             }
           ],
           "editable": true,
-          "id": "68af4185-1be1-4527-82d1-9f0ca9f9dc73",
+          "id": "843e3c86-2540-4017-9fc3-8a250a637a37",
           "input": false,
           "inputPort": false,
           "name": "o_DisplacementMap",
           "output": true,
-          "outputPort": "93f9f7b0-b546-450e-8f9a-36a262ed1575",
-          "value": "",
+          "outputPort": "704be429-cca8-4dc4-9c0e-7bacc2955c40",
+          "value": "'Boundaries/Displacement.nii'",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        -1868.6358300341528,
-        -366.16878238027675
+        -1900.9181953231007,
+        -378.53133198708986
       ],
       "code": [
         {
@@ -3014,7 +3098,7 @@
           "name": "i_ReferenceVolume",
           "output": true,
           "outputPort": "9ddd7157-ef28-407e-8476-541310a72d90",
-          "value": "'Scans/Functional/MeanFunctional.nii'",
+          "value": "",
           "visible": true,
           "iterator": false
         },
@@ -3336,8 +3420,8 @@
         }
       ],
       "position": [
-        -1251.9206718158305,
-        -123.48353175390008
+        -1132.793596620518,
+        -117.87755183446649
       ],
       "code": [
         {
@@ -3394,7 +3478,7 @@
           "name": "i_ReferenceVolume",
           "output": true,
           "outputPort": "8b5be1c8-f6f2-4274-bcaa-b60afab40169",
-          "value": "'Scans/Functional/MeanFunctional.nii'",
+          "value": "",
           "visible": true,
           "iterator": false
         },
@@ -4393,8 +4477,8 @@
         }
       ],
       "position": [
-        1586.8097616454686,
-        573.462623922563
+        1708.1964803954686,
+        619.4245990202193
       ],
       "code": [
         {
@@ -4493,14 +4577,14 @@
           "name": "o_DesignMatrix",
           "output": true,
           "outputPort": "62ffb640-ff78-409a-be65-98b6e1d5465d",
-          "value": "{'DesignMatrix/StimulusActivation.mat'};",
+          "value": "{'DesignMatrix/StimulusActivation.mat'}",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        1971.4790478436507,
-        117.78460097110042
+        2012.1222363202132,
+        148.61747145449885
       ],
       "code": [
         {
@@ -4557,7 +4641,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "078dfc90-21fb-4d5b-95ec-f606f053458e",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "value": "'DesignMatrix/Design.mat'",
           "visible": true,
           "iterator": false
         },
@@ -4705,7 +4789,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "3d2ac6b9-b85c-422e-b300-26c20efc60fa",
-          "value": "{'DesignMatrix/StimulusActivation.mat'};",
+          "value": "{'DesignMatrix/StimulusActivation.mat'}",
           "visible": true,
           "iterator": false
         },
@@ -4795,8 +4879,8 @@
         }
       ],
       "position": [
-        2412.7364819900895,
-        292.8152266160291
+        2347.3299878494645,
+        296.7792158738416
       ],
       "code": [
         {
@@ -5001,7 +5085,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "bc63d7a3-a257-4eb5-8944-1e57a52e0b57",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "value": "'DesignMatrix/Design.mat'",
           "visible": true,
           "iterator": false
         },
@@ -5469,7 +5553,7 @@
       "title": "Design Matrix",
       "content": "This part is construction a temporal design matrix, step by step",
       "position": [
-        -1720.413803100586,
+        -1769.964096069336,
         649.7655181884766
       ]
     },
@@ -5487,8 +5571,8 @@
       "title": "GLM",
       "content": "Running a whole brain GLM here!",
       "position": [
-        762.8490753173828,
-        878.4856109619141
+        784.0622711181641,
+        859.6294097900391
       ]
     },
     {
@@ -5505,8 +5589,8 @@
       "title": "Layers",
       "content": "What we came here for: the layer analysis part of the pipeline.",
       "position": [
-        617.3788604736328,
-        -887.8466491699219
+        780.0134429931641,
+        -722.8550720214844
       ]
     },
     {
@@ -5525,6 +5609,15 @@
       "position": [
         -306.0127258300781,
         1462.5335998535156
+      ]
+    },
+    {
+      "id": "07180237-577f-46d2-b698-af76ff902b51",
+      "title": "ROI",
+      "content": "You're probably gonna wanna intersect this with you V1/V2/V3 labels or other atlases.",
+      "position": [
+        1560.5934295654297,
+        378.29689025878906
       ]
     }
   ],
