@@ -190,16 +190,6 @@ configuration.i_FunctionalFolder = 'Scans/Functional/Filtered/';
 tvm_designMatrixToTimeCourse(configuration);
 
 configuration = [];
-configuration.i_LevelSet = 'LevelSets/brain.levels.nii';
-tvm_levelSetToObj(configuration);
-
-configuration = [];
-tvm_objToBoundary(configuration);
-
-configuration = [];
-tvm_volumeWithBoundariesToMovie(configuration);
-
-configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/DesignStimulus.mat';
 configuration.i_Betas = 'Activation/BetasCanonicalHrf.nii';
 configuration.i_ResidualSumOfSquares = 'Activation/RssCanonicalHrf.nii';

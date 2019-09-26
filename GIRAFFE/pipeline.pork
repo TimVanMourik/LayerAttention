@@ -101,21 +101,6 @@
       "to": "26f65115-d1e6-41a2-a786-7aea9bad6ee7"
     },
     {
-      "id": "7913eea4-f628-41dd-b83a-66fcb7602d46",
-      "from": "1183d61f-17a6-4834-a4f0-5d705e061daf",
-      "to": "c0a5ea2d-b9fa-4488-90bf-a5c3bda3a204"
-    },
-    {
-      "id": "8cfdc11b-ad67-46a1-bb91-962a775c362f",
-      "from": "2867b40b-5b7f-466a-b14a-80ca3aefaf84",
-      "to": "1c313eae-fada-4dc2-8ce3-9d1057314096"
-    },
-    {
-      "id": "20722726-69c9-45cb-8b5b-3fa32cc740ab",
-      "from": "8fc4597d-d490-4c0f-8e99-24c92a789c9b",
-      "to": "357739ca-51cb-4ac8-8f05-262869ef2256"
-    },
-    {
       "id": "73e94649-aa24-42d6-b36f-e2e648bf2bd4",
       "from": "19e11617-638e-43df-acce-75254bdb83d8",
       "to": "66c2cff0-4776-4aa1-b40d-19e05d5988d5"
@@ -490,8 +475,8 @@
         }
       ],
       "position": [
-        417.43379369685454,
-        350.7189849669264
+        221.58629003474516,
+        1067.4375518614577
       ],
       "code": [
         {
@@ -1780,8 +1765,8 @@
         }
       ],
       "position": [
-        906.50310537008,
-        478.54450250539037
+        677.3198167958612,
+        1224.4318926421092
       ],
       "code": [
         {
@@ -1928,8 +1913,8 @@
         }
       ],
       "position": [
-        1293.2094306696208,
-        383.62254942604784
+        1064.0262031305583,
+        825.3212188596416
       ],
       "code": [
         {
@@ -2118,8 +2103,8 @@
         }
       ],
       "position": [
-        1272.4810765868044,
-        1160.2163478563284
+        1209.976559985242,
+        1660.252602739141
       ],
       "code": [
         {
@@ -2329,8 +2314,8 @@
         }
       ],
       "position": [
-        1676.648124668845,
-        1180.930582302236
+        1655.8132858016575,
+        1618.462320583486
       ],
       "code": [
         {
@@ -3721,8 +3706,8 @@
         }
       ],
       "position": [
-        1480.5135140377424,
-        -32.74327743457354
+        13.740671630515862,
+        -541.1134327690462
       ],
       "code": [
         {
@@ -3869,8 +3854,8 @@
         }
       ],
       "position": [
-        1811.2587169219378,
-        178.52528633756702
+        377.821522097719,
+        -542.3602727444643
       ],
       "code": [
         {
@@ -3975,8 +3960,8 @@
         }
       ],
       "position": [
-        2205.974561482696,
-        423.6333091952048
+        776.7042367756649,
+        -397.25945203526396
       ],
       "code": [
         {
@@ -4081,8 +4066,8 @@
         }
       ],
       "position": [
-        2418.8220045918097,
-        646.9261697899043
+        1006.2197096699347,
+        -219.803268991834
       ],
       "code": [
         {
@@ -4292,8 +4277,8 @@
         }
       ],
       "position": [
-        2791.2955879422416,
-        447.9453610759781
+        1412.029108450054,
+        -489.6225100177719
       ],
       "code": [
         {
@@ -4398,8 +4383,8 @@
         }
       ],
       "position": [
-        3218.5842724530257,
-        738.8623180369116
+        2011.3957958905257,
+        91.75196242129573
       ],
       "code": [
         {
@@ -4546,8 +4531,8 @@
         }
       ],
       "position": [
-        1251.0226913585373,
-        1571.0080847206145
+        447.69172822377163,
+        497.8470787467986
       ],
       "code": [
         {
@@ -4694,8 +4679,8 @@
         }
       ],
       "position": [
-        3620.6285718338395,
-        855.6465559617322
+        2428.3561108963395,
+        237.2789412156385
       ],
       "code": [
         {
@@ -4708,450 +4693,6 @@
       ],
       "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/LaminarAnalysis",
       "colour": "#4292AA"
-    },
-    {
-      "id": "4c4d1beb-e9e6-4007-9865-c0842a1c2824",
-      "name": "tvm_level_set_to_obj",
-      "class": "tvm_levelSetToObj",
-      "ports": [
-        {
-          "base": "i_SubjectDirectory",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_SubjectDirectory"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "72170d50-35a4-447c-b759-4f79e24b865e",
-          "input": true,
-          "inputPort": "1cde0aba-4d1e-4f15-b9ea-4e7b0751ed4f",
-          "name": "i_SubjectDirectory",
-          "output": true,
-          "outputPort": "45f5490d-4c2b-4036-9ea6-2e8cd2ebe0aa",
-          "value": "",
-          "visible": false,
-          "iterator": false
-        },
-        {
-          "base": "i_LevelSet",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_LevelSet"
-              }
-            }
-          ],
-          "editable": false,
-          "id": "9969ff0e-40aa-4aa3-843d-240d43d81c75",
-          "input": true,
-          "inputPort": "357739ca-51cb-4ac8-8f05-262869ef2256",
-          "name": "i_LevelSet",
-          "output": true,
-          "outputPort": "8b224996-3ff3-4f29-bf46-35e51da12750",
-          "value": "'LevelSets/brain.levels.nii'",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "o_ObjFile",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "o_ObjFile"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "45421091-1f8b-44e1-9c9c-fd76e049bec8",
-          "input": false,
-          "inputPort": false,
-          "name": "o_ObjFile",
-          "output": true,
-          "outputPort": "2867b40b-5b7f-466a-b14a-80ca3aefaf84",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        }
-      ],
-      "position": [
-        3180.2939244796294,
-        474.66163156131614
-      ],
-      "code": [
-        {
-          "language": "TvM",
-          "comment": "",
-          "argument": {
-            "name": "tvm_levelSetToObj"
-          }
-        }
-      ],
-      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/LaminarAnalysis",
-      "colour": "#4292AA"
-    },
-    {
-      "id": "58be8bd3-f4dc-4b4e-b135-6d906be57e1d",
-      "name": "tvm_obj_to_boundary",
-      "class": "tvm_objToBoundary",
-      "ports": [
-        {
-          "base": "i_SubjectDirectory",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_SubjectDirectory"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "aee7a237-6e99-427e-b9bd-e636485d00d5",
-          "input": true,
-          "inputPort": "9b6bdea4-6516-40a2-8a06-4a788992b77d",
-          "name": "i_SubjectDirectory",
-          "output": true,
-          "outputPort": "a5387656-7037-47d8-a929-12e495d79acf",
-          "value": "",
-          "visible": false,
-          "iterator": false
-        },
-        {
-          "base": "i_ObjFile",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_ObjFile"
-              }
-            }
-          ],
-          "editable": false,
-          "id": "0039ec80-8168-4568-8c2f-2f2c435d5432",
-          "input": true,
-          "inputPort": "1c313eae-fada-4dc2-8ce3-9d1057314096",
-          "name": "i_ObjFile",
-          "output": true,
-          "outputPort": "1a8abad2-e559-4707-84ca-835bd919ecec",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "o_BoundaryFile",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "o_BoundaryFile"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "c789c394-5d7b-444b-89e7-549f840aab74",
-          "input": false,
-          "inputPort": false,
-          "name": "o_BoundaryFile",
-          "output": true,
-          "outputPort": "1183d61f-17a6-4834-a4f0-5d705e061daf",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        }
-      ],
-      "position": [
-        3471.2980204240553,
-        378.9368118437462
-      ],
-      "code": [
-        {
-          "language": "TvM",
-          "comment": "",
-          "argument": {
-            "name": "tvm_objToBoundary"
-          }
-        }
-      ],
-      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/LaminarAnalysis",
-      "colour": "#4292AA"
-    },
-    {
-      "id": "483af58f-b36c-47a7-9665-2152c255d312",
-      "name": "tvm_volume_with_boundaries_to_movie_2",
-      "class": "tvm_volumeWithBoundariesToMovie",
-      "ports": [
-        {
-          "base": "i_SubjectDirectory",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_SubjectDirectory"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "48ca13b4-b807-4550-8a0e-b69afe9bf257",
-          "input": true,
-          "inputPort": "d569e87f-cad5-414b-a744-0f8fd882000a",
-          "name": "i_SubjectDirectory",
-          "output": true,
-          "outputPort": "f0b76525-1967-4efb-b554-7bbb4fc11045",
-          "value": "",
-          "visible": false,
-          "iterator": false
-        },
-        {
-          "base": "i_ReferenceVolume",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_ReferenceVolume"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "9cc5159b-779f-401f-a1b9-4ae3594e94f1",
-          "input": true,
-          "inputPort": "0f1ba3e6-c91f-40e8-b808-6d9742353945",
-          "name": "i_ReferenceVolume",
-          "output": true,
-          "outputPort": "e7fda319-172c-48fe-a76c-50a2fa31d5dc",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Boundaries",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_Boundaries"
-              }
-            }
-          ],
-          "editable": false,
-          "id": "0aafbefd-2d63-4db6-8f6c-f15aa4e8970c",
-          "input": true,
-          "inputPort": "c0a5ea2d-b9fa-4488-90bf-a5c3bda3a204",
-          "name": "i_Boundaries",
-          "output": true,
-          "outputPort": "568c838a-f204-4b99-ac94-3eaec0ca4e8f",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Axis",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_Axis"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "a85f5189-2656-44e5-a5c7-985eeaf83ce1",
-          "input": true,
-          "inputPort": "4b9164c2-97c5-43cf-857e-27606992f3c9",
-          "name": "i_Axis",
-          "output": true,
-          "outputPort": "fed9ce10-1c34-4630-8622-09502528109f",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_FramesPerSecond",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_FramesPerSecond"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "62e2d400-bbd6-4923-b3ad-19dc50f9b794",
-          "input": true,
-          "inputPort": "496fc7c0-2031-4812-9ed4-e866117119b5",
-          "name": "i_FramesPerSecond",
-          "output": true,
-          "outputPort": "9270ef0f-cc55-48c5-97ce-711ca29db724",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_MovieQuality",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_MovieQuality"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "2868f55d-f0cf-47aa-9b92-f54812fd2ec6",
-          "input": true,
-          "inputPort": "2c6159f3-2093-4491-8041-3ab058c63dd7",
-          "name": "i_MovieQuality",
-          "output": true,
-          "outputPort": "225ea98d-fe3d-4a3e-8ecf-d8d7c70603ea",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_ContourColors",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_ContourColors"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "53e2edef-32af-4dfd-8efc-9f7f663b8bb4",
-          "input": true,
-          "inputPort": "8776868a-bdeb-4c23-a6e7-f936747037d1",
-          "name": "i_ContourColors",
-          "output": true,
-          "outputPort": "c4a14bda-02cd-4bbf-a1f7-3fa8901d7370",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_RegionOfInterest",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_RegionOfInterest"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "de565852-e13b-4265-88de-f972f56ea3c2",
-          "input": true,
-          "inputPort": "676f42a6-690b-48d8-a606-4f75d7dbb1cf",
-          "name": "i_RegionOfInterest",
-          "output": true,
-          "outputPort": "f1c43bb2-f40e-4c9c-aa8a-da7d7f821b09",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_ColorLimits",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_ColorLimits"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "9bc237cc-aaad-4fa0-945a-54b45cc7d0a7",
-          "input": true,
-          "inputPort": "ecd9ad1d-d348-41be-9dfc-7fa78e2d24b3",
-          "name": "i_ColorLimits",
-          "output": true,
-          "outputPort": "015af64d-58ea-4e4b-98dc-82394b3ad0d9",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Rotation",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_Rotation"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "c74e6eec-8543-4838-8ca0-8faaa026605e",
-          "input": true,
-          "inputPort": "5958e86a-8dc4-4b78-a5e2-295ec1d5ba8d",
-          "name": "i_Rotation",
-          "output": true,
-          "outputPort": "e9787627-9beb-4add-9ea1-481c35616daf",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "i_Contrast",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "i_Contrast"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "c25fe52d-0fe0-4599-8276-4c50a9dece2f",
-          "input": true,
-          "inputPort": "5dab03c7-3aec-4b3b-9db9-ebb94923f821",
-          "name": "i_Contrast",
-          "output": true,
-          "outputPort": "081dfe33-018c-433b-b5cb-bf9ac5a12bfd",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "o_RegistrationMovie",
-          "code": [
-            {
-              "language": "TvM",
-              "argument": {
-                "name": "o_RegistrationMovie"
-              }
-            }
-          ],
-          "editable": true,
-          "id": "c020efdc-a44d-4193-a239-c8d198d6d328",
-          "input": false,
-          "inputPort": false,
-          "name": "o_RegistrationMovie",
-          "output": true,
-          "outputPort": "3cb04a9b-6667-4430-aa44-3f4e6c3cbbd3",
-          "value": "",
-          "visible": true,
-          "iterator": false
-        }
-      ],
-      "position": [
-        3781.5326433698033,
-        144.91624367104623
-      ],
-      "code": [
-        {
-          "language": "TvM",
-          "comment": "",
-          "argument": {
-            "name": "tvm_volumeWithBoundariesToMovie"
-          }
-        }
-      ],
-      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/Utilities",
-      "colour": "#7FB649"
     },
     {
       "id": "e1dccc7f-029c-435a-a7b7-52ca4e0952d2",
@@ -5286,8 +4827,8 @@
         }
       ],
       "position": [
-        1272.9171898781424,
-        637.9077594040314
+        1156.2420189797049,
+        1083.7734210251251
       ],
       "code": [
         {
@@ -5561,8 +5102,8 @@
         }
       ],
       "position": [
-        1251.4976781493044,
-        893.1495753953909
+        1168.158444750867,
+        1330.681313676641
       ],
       "code": [
         {
@@ -5772,8 +5313,8 @@
         }
       ],
       "position": [
-        1676.63518521572,
-        879.1540930444235
+        1614.1306686141575,
+        1262.5151770287985
       ],
       "code": [
         {
@@ -5830,8 +5371,8 @@
       "title": "GLM",
       "content": "Running a whole brain GLM here!",
       "position": [
-        952.9513092041016,
-        207.71482849121094
+        762.8490753173828,
+        878.4856109619141
       ]
     },
     {
@@ -5839,8 +5380,8 @@
       "title": "RETROICOR",
       "content": "Just for fun, check out heart rate and respiration and make movies of the effect on the brain.",
       "position": [
-        1914.8599700927734,
-        822.3869171142578
+        1873.190170288086,
+        1322.4231719970703
       ]
     },
     {
@@ -5848,8 +5389,8 @@
       "title": "Layers",
       "content": "What we came here for: the layer analysis part of the pipeline.",
       "position": [
-        2067.4840240478516,
-        -62.78692626953125
+        617.3788604736328,
+        -887.8466491699219
       ]
     },
     {
@@ -5857,17 +5398,8 @@
       "title": "Layer GLM",
       "content": "This is a laminar spatial GLM, constructed based on a region of interest of your choice.",
       "position": [
-        3488.518112182617,
-        540.3940887451172
-      ]
-    },
-    {
-      "id": "919d4c92-80e4-4003-bf0d-761f920f067d",
-      "title": "Boundaries",
-      "content": "Inspect the cortical surfaces between the layers.",
-      "position": [
-        4115.346008300781,
-        -101.8971176147461
+        2759.688278198242,
+        14.795700073242188
       ]
     },
     {
@@ -5882,6 +5414,7 @@
   ],
   "ui": {
     "showToolboxes": [
+      "TvM",
       "TvM",
       "TvM"
     ]
