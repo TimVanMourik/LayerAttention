@@ -46,16 +46,6 @@
       "to": "12957c12-094d-4b14-a1bc-1829db43cb71"
     },
     {
-      "id": "a36d4d72-b6be-4910-a8fd-e0077b0d03fc",
-      "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
-      "to": "83855357-5ec5-46e7-9259-6a270c155f75"
-    },
-    {
-      "id": "bef90891-bc29-4983-945c-d6341166670d",
-      "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
-      "to": "6c1253cc-daad-42e7-b188-1755ce9c97c5"
-    },
-    {
       "id": "8137be23-b6b6-444e-93c6-39494fe982ee",
       "from": "a8264c8d-5d01-4787-a75d-621dbca5e900",
       "to": "1e9090d3-9baa-48a0-a336-8a9a96e1cfc6"
@@ -141,11 +131,6 @@
       "to": "90c6b93a-5665-4ec9-bf03-25cc56bb01aa"
     },
     {
-      "id": "5699c18d-cb12-440a-8940-e1039c356677",
-      "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
-      "to": "e4fa56ba-fbb1-432c-86fc-9c0371b33599"
-    },
-    {
       "id": "ec1760c1-e277-442a-9527-362221781fec",
       "from": "bc6eafd2-db64-4c02-aa94-22609748791c",
       "to": "4bb9188f-59c9-454d-82e8-aee551a7a32d"
@@ -189,11 +174,6 @@
       "id": "6497c6e5-961b-4c79-9d83-e30f796a10ae",
       "from": "7bd8802f-1bb2-4278-83dd-d27b7334cc4b",
       "to": "cc0ff58c-2f88-41c9-a8fa-aeeb30cc64a7"
-    },
-    {
-      "id": "25c78c34-51a6-4730-960c-8df5cdc04bef",
-      "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
-      "to": "bf86b399-2b21-4a9b-9a31-1e6bd9da9fe1"
     },
     {
       "id": "053a6110-716f-4c4c-ad81-258ea9e03dbf",
@@ -264,6 +244,26 @@
       "id": "6cd74b2a-266a-41dc-806c-8a7855d5fccc",
       "from": "99ce2669-8622-4f56-954c-a7bdbcd62095",
       "to": "dc14ca7c-9394-4c6a-bbdb-a0e6fba53457"
+    },
+    {
+      "id": "e00279ef-e7bc-4370-b029-177bfe36c6b3",
+      "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
+      "to": "e4fa56ba-fbb1-432c-86fc-9c0371b33599"
+    },
+    {
+      "id": "873f5126-a05b-4214-848f-a5157495cf1d",
+      "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
+      "to": "83855357-5ec5-46e7-9259-6a270c155f75"
+    },
+    {
+      "id": "42ef6cbb-c46b-4957-9a31-666ee11a4cf4",
+      "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
+      "to": "bf86b399-2b21-4a9b-9a31-1e6bd9da9fe1"
+    },
+    {
+      "id": "4e5d0b46-42b9-493a-97ef-542ef1035a9c",
+      "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
+      "to": "6c1253cc-daad-42e7-b188-1755ce9c97c5"
     }
   ],
   "nodes": [
@@ -310,7 +310,7 @@
           "name": "i_SourceDirectory",
           "output": true,
           "outputPort": "09bab4a7-192e-4f91-ae30-a63b3f7c0545",
-          "value": "'Scans/Functional/NifTI'",
+          "value": "'Scans/Functional/Raw'",
           "visible": true,
           "iterator": false
         },
@@ -1586,7 +1586,7 @@
       ],
       "position": [
         -882.2672886609657,
-        1389.8616528256744
+        1387.9994702084869
       ],
       "code": [
         {
@@ -1833,7 +1833,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "8705a4f1-5948-4126-b662-68b140f1f39e",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "value": "'DesignMatrix/Design.mat'",
           "visible": true,
           "iterator": false
         },
@@ -4281,7 +4281,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "e741b1d1-0236-416f-926b-376d1e5b506c",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "value": "'DesignMatrix/Design.mat'",
           "visible": true,
           "iterator": false
         },
@@ -4937,7 +4937,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "372130ae-610b-40f8-b1af-40fd108477f6",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "value": "'DesignMatrix/Design.mat'",
           "visible": true,
           "iterator": false
         },
@@ -5027,7 +5027,7 @@
         }
       ],
       "position": [
-        1156.2420189797049,
+        1159.9192650734549,
         1083.7734210251251
       ],
       "code": [
@@ -5170,7 +5170,7 @@
           "name": "i_DesignMatrix",
           "output": true,
           "outputPort": "84d02407-c4b4-4aa1-b704-9ff6b080b154",
-          "value": "'DesignMatrix/DesignStimulus.mat'",
+          "value": "'DesignMatrix/Design.mat'",
           "visible": true,
           "iterator": false
         },
