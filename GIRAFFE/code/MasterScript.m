@@ -191,6 +191,11 @@ configuration.o_ThresholdedVolumes = {'RegionsOfInterest/StimulusActivation.nii'
 tvm_thresholdVolumes(configuration);
 
 configuration = [];
+configuration.i_Volumes = {'RegionsOfInterest/StimulusActivation.nii'};
+configuration.o_Volumes = {'RegionsOfInterest/StimulusActivation.nii'};
+tvm_binariseVolumes(configuration);
+
+configuration = [];
 configuration.i_ROI = {'RegionsOfInterest/StimulusActivation.nii'};
 configuration.i_Layers = 'LevelSets/brain.layers.nii';
 configuration.o_DesignMatrix = {'DesignMatrix/StimulusActivation.mat'};
@@ -207,7 +212,7 @@ configuration = [];
 configuration.i_DesignMatrix = {'DesignMatrix/StimulusActivation.mat'};
 configuration.i_FunctionalFolder = 'Scans/Functional/Filtered/';
 configuration.i_RegressionApproach = 'OLS';
-configuration.o_TimeCourse = {'TimeCourses/StimulusActivation.mat'};;
+configuration.o_TimeCourse = {'TimeCourses/StimulusActivation.mat'};
 tvm_designMatrixToTimeCourse(configuration);
 
 configuration = [];

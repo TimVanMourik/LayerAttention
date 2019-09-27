@@ -186,11 +186,6 @@
       "to": "3b93a692-05bd-4c72-9989-367247026afa"
     },
     {
-      "id": "b5b1ea11-8849-45fc-a4b8-c0930966d80e",
-      "from": "bcff7d5d-5ed4-4d6d-be35-cc632b04deb4",
-      "to": "70bcbb94-ed7e-4163-9d05-7b858309437a"
-    },
-    {
       "id": "653366ef-62f5-4321-a8aa-8d6b6414d07a",
       "from": "34b9341c-89c4-4f7f-9a59-a7f314406850",
       "to": "7709fd2f-4826-4bf9-a26d-e5f4738a8910"
@@ -264,6 +259,16 @@
       "id": "ee9d6131-bbb2-494d-9d13-b0dc81ef8acf",
       "from": "99ce2669-8622-4f56-954c-a7bdbcd62095",
       "to": "776cd7b7-03aa-4a52-a691-3837d5428bfd"
+    },
+    {
+      "id": "f3f95aac-c567-4faf-a42b-8dcaa8bb3a43",
+      "from": "bcff7d5d-5ed4-4d6d-be35-cc632b04deb4",
+      "to": "fdce50e2-d423-4c52-9911-2d3f05e79f70"
+    },
+    {
+      "id": "85aca7e0-e69b-46b4-b3f8-98d0d78de12e",
+      "from": "a0ee77fa-4623-4658-8736-18c45f6d178c",
+      "to": "70bcbb94-ed7e-4163-9d05-7b858309437a"
     }
   ],
   "nodes": [
@@ -4477,8 +4482,8 @@
         }
       ],
       "position": [
-        1708.1964803954686,
-        619.4245990202193
+        1388.912178637656,
+        713.8102191374068
       ],
       "code": [
         {
@@ -4486,6 +4491,91 @@
           "comment": "",
           "argument": {
             "name": "tvm_thresholdVolumes"
+          }
+        }
+      ],
+      "web_url": "https://github.com/TimVanMourik/OpenFmriAnalysis/tree/master/Interface/Utilities",
+      "colour": "#7FB649"
+    },
+    {
+      "id": "849cb6b2-e170-428f-8899-f240456a82c9",
+      "name": "tvm_binarise_volumes",
+      "class": "tvm_binariseVolumes",
+      "ports": [
+        {
+          "base": "i_SubjectDirectory",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_SubjectDirectory"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "fb79a1ec-bad2-40ba-9893-4e8370d42bfd",
+          "input": true,
+          "inputPort": "bba15d02-9069-40be-8523-69c2de367a5d",
+          "name": "i_SubjectDirectory",
+          "output": true,
+          "outputPort": "319947ff-2ab2-49ec-89d3-7c07b7111777",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "i_Volumes",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "i_Volumes"
+              }
+            }
+          ],
+          "editable": false,
+          "id": "d356a2a4-349e-477f-b41d-57e77f394fdb",
+          "input": true,
+          "inputPort": "fdce50e2-d423-4c52-9911-2d3f05e79f70",
+          "name": "i_Volumes",
+          "output": true,
+          "outputPort": "54385051-689e-4fa5-ab45-a7d7aaa111db",
+          "value": "{'RegionsOfInterest/StimulusActivation.nii'}",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "o_Volumes",
+          "code": [
+            {
+              "language": "TvM",
+              "argument": {
+                "name": "o_Volumes"
+              }
+            }
+          ],
+          "editable": true,
+          "id": "f38ee5c4-958c-41d7-bd9b-f8ddf2c4556e",
+          "input": false,
+          "inputPort": false,
+          "name": "o_Volumes",
+          "output": true,
+          "outputPort": "a0ee77fa-4623-4658-8736-18c45f6d178c",
+          "value": "{'RegionsOfInterest/StimulusActivation.nii'}",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        1741.9991944779817,
+        564.0155215388485
+      ],
+      "code": [
+        {
+          "language": "TvM",
+          "comment": "",
+          "argument": {
+            "name": "tvm_binariseVolumes"
           }
         }
       ],
@@ -4583,8 +4673,8 @@
         }
       ],
       "position": [
-        2008.8348828045882,
-        148.61747145449885
+        2081.3761425702132,
+        207.72510695254573
       ],
       "code": [
         {
@@ -4873,14 +4963,14 @@
           "name": "o_TimeCourse",
           "output": true,
           "outputPort": "f5d9aef6-0af8-47b1-ae00-cf29d52e5bff",
-          "value": "{'TimeCourses/StimulusActivation.mat'};",
+          "value": "{'TimeCourses/StimulusActivation.mat'}",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        2347.3299878494645,
-        296.7792158738416
+        2445.3287671463395,
+        345.13996416485725
       ],
       "code": [
         {
@@ -5616,13 +5706,14 @@
       "title": "ROI",
       "content": "You're probably gonna wanna intersect this with you V1/V2/V3 labels or other atlases.",
       "position": [
-        1560.5934295654297,
-        378.29689025878906
+        1463.8718719482422,
+        493.8253936767578
       ]
     }
   ],
   "ui": {
     "showToolboxes": [
+      "TvM",
       "TvM",
       "TvM",
       "TvM",
