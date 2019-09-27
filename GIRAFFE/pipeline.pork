@@ -226,11 +226,6 @@
       "to": "26f65115-d1e6-41a2-a786-7aea9bad6ee7"
     },
     {
-      "id": "89abe648-ecdd-4a75-b72f-b9f96e1cf395",
-      "from": "99ce2669-8622-4f56-954c-a7bdbcd62095",
-      "to": "776cd7b7-03aa-4a52-a691-3837d5428bfd"
-    },
-    {
       "id": "e4249c7b-966a-45c8-9fd7-74f7edfd986c",
       "from": "87b9c640-6746-4430-8ed3-4ca8bb8a8000",
       "to": "c9f816a8-ca48-4fca-894d-92f5d1771ad2"
@@ -264,6 +259,11 @@
       "id": "4e5d0b46-42b9-493a-97ef-542ef1035a9c",
       "from": "0eee1f9f-db87-475f-b974-6d6d20def0c7",
       "to": "6c1253cc-daad-42e7-b188-1755ce9c97c5"
+    },
+    {
+      "id": "ee9d6131-bbb2-494d-9d13-b0dc81ef8acf",
+      "from": "99ce2669-8622-4f56-954c-a7bdbcd62095",
+      "to": "776cd7b7-03aa-4a52-a691-3837d5428bfd"
     }
   ],
   "nodes": [
@@ -3478,7 +3478,7 @@
           "name": "i_ReferenceVolume",
           "output": true,
           "outputPort": "8b5be1c8-f6f2-4274-bcaa-b60afab40169",
-          "value": "",
+          "value": "'Scans/Functional/MeanFunctional.nii'",
           "visible": true,
           "iterator": false
         },
@@ -3653,7 +3653,7 @@
       ],
       "position": [
         13.740671630515862,
-        -541.1134327690462
+        -544.2888783256868
       ],
       "code": [
         {
@@ -3907,7 +3907,7 @@
       ],
       "position": [
         776.7042367756649,
-        -397.25945203526396
+        -395.30470960362334
       ],
       "code": [
         {
@@ -4583,7 +4583,7 @@
         }
       ],
       "position": [
-        2012.1222363202132,
+        2008.8348828045882,
         148.61747145449885
       ],
       "code": [

@@ -141,6 +141,7 @@ configuration.o_ObjPial = 'LevelSets/?h.pial.obj';
 tvm_boundariesToObj(configuration);
 
 configuration = [];
+configuration.i_ReferenceVolume = 'Scans/Functional/MeanFunctional.nii';
 configuration.i_ObjWhite = 'LevelSets/?h.white.obj';
 configuration.i_ObjPial = 'LevelSets/?h.pial.obj';
 configuration.o_SdfWhite = 'LevelSets/?h.white.sdf.nii';
