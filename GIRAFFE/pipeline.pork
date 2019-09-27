@@ -21,11 +21,6 @@
       "to": "44303183-9170-4ba4-9493-8d31199af1f7"
     },
     {
-      "id": "b8efbb85-8426-4e49-bcf1-1a70ed460f96",
-      "from": "a494150a-596e-4975-a263-f4d8055c27cc",
-      "to": "f8aef938-5c94-45d0-9790-e02608ef99f8"
-    },
-    {
       "id": "ddee4d75-f4cc-4530-94a6-43665a649182",
       "from": "bc6eafd2-db64-4c02-aa94-22609748791c",
       "to": "837f18ce-d5ed-44bc-bba2-abed30bfbaf8"
@@ -44,11 +39,6 @@
       "id": "083934cf-4bb5-41d7-b155-b7480341edd0",
       "from": "bc6eafd2-db64-4c02-aa94-22609748791c",
       "to": "12957c12-094d-4b14-a1bc-1829db43cb71"
-    },
-    {
-      "id": "8137be23-b6b6-444e-93c6-39494fe982ee",
-      "from": "a8264c8d-5d01-4787-a75d-621dbca5e900",
-      "to": "1e9090d3-9baa-48a0-a336-8a9a96e1cfc6"
     },
     {
       "id": "8d359fe7-eec7-443f-b727-2b6c0cf31ab2",
@@ -166,11 +156,6 @@
       "to": "7722c858-8f17-4940-907d-dd6414ead5d5"
     },
     {
-      "id": "69f24c80-8e47-4da3-af18-de5b674adc53",
-      "from": "f103387a-5cc9-445a-8cbf-0af172d2b1db",
-      "to": "a887e589-a7f7-4336-aff9-68e144d501a0"
-    },
-    {
       "id": "6497c6e5-961b-4c79-9d83-e30f796a10ae",
       "from": "7bd8802f-1bb2-4278-83dd-d27b7334cc4b",
       "to": "cc0ff58c-2f88-41c9-a8fa-aeeb30cc64a7"
@@ -269,6 +254,21 @@
       "id": "85aca7e0-e69b-46b4-b3f8-98d0d78de12e",
       "from": "a0ee77fa-4623-4658-8736-18c45f6d178c",
       "to": "70bcbb94-ed7e-4163-9d05-7b858309437a"
+    },
+    {
+      "id": "3abb186d-1eda-49d2-b361-fbc232c2018d",
+      "from": "3b82efe0-e383-493d-a183-aad7b00ffc89",
+      "to": "a887e589-a7f7-4336-aff9-68e144d501a0"
+    },
+    {
+      "id": "bc556716-3e51-49d6-8ee0-023101610917",
+      "from": "a494150a-596e-4975-a263-f4d8055c27cc",
+      "to": "032fb9ae-7f68-4e48-8d25-2200cb0ea162"
+    },
+    {
+      "id": "2dd6200c-509d-4d88-8cf6-38a6ab6fda1e",
+      "from": "a8264c8d-5d01-4787-a75d-621dbca5e900",
+      "to": "e083ca50-90b2-4662-8b72-f0f39b826fea"
     }
   ],
   "nodes": [
@@ -4689,8 +4689,8 @@
       "colour": "#4292AA"
     },
     {
-      "id": "b48837fe-7cb1-4446-8286-a6bc164da4eb",
-      "name": "tvm_regress_confounds",
+      "id": "85f05d20-3e95-43d6-ba91-254712443c95",
+      "name": "tvm_regress_confounds_1",
       "class": "tvm_regressConfounds",
       "ports": [
         {
@@ -4704,12 +4704,12 @@
             }
           ],
           "editable": true,
-          "id": "7fdd06c2-c637-4541-97f3-4d8045b8f8bc",
+          "id": "a5b7fd7e-b5ef-48e3-8bc2-4ebe5fbd80d0",
           "input": true,
-          "inputPort": "30076a6d-0605-4917-b3b0-52b8653fa539",
+          "inputPort": "64fbb102-b8a5-4f7c-9510-f132f3fd588e",
           "name": "i_SubjectDirectory",
           "output": true,
-          "outputPort": "e76e0749-907c-4304-8075-5ca79ae71758",
+          "outputPort": "b25792e7-8c3d-41a4-b58d-026fefdbf8d7",
           "value": "",
           "visible": false,
           "iterator": false
@@ -4725,33 +4725,33 @@
             }
           ],
           "editable": false,
-          "id": "4fb31ce3-6f2a-4589-afa0-dc181cf356f0",
+          "id": "384e76e7-2e22-4783-870b-07fc0fde9efc",
           "input": true,
-          "inputPort": "f8aef938-5c94-45d0-9790-e02608ef99f8",
+          "inputPort": "032fb9ae-7f68-4e48-8d25-2200cb0ea162",
           "name": "i_DesignMatrix",
           "output": true,
-          "outputPort": "078dfc90-21fb-4d5b-95ec-f606f053458e",
+          "outputPort": "d4c35e2f-734a-44f7-9359-160f0d987056",
           "value": "'DesignMatrix/Design.mat'",
           "visible": true,
           "iterator": false
         },
         {
-          "base": "i_FunctionalFolder",
+          "base": "i_SourceDirectory",
           "code": [
             {
               "language": "TvM",
               "argument": {
-                "name": "i_FunctionalFolder"
+                "name": "i_SourceDirectory"
               }
             }
           ],
           "editable": false,
-          "id": "0d8cb765-35a9-4347-8537-6618d9da5ba9",
+          "id": "7eda67ea-83c8-4110-a5e3-2ddeb66f8302",
           "input": true,
-          "inputPort": "1e9090d3-9baa-48a0-a336-8a9a96e1cfc6",
-          "name": "i_FunctionalFolder",
+          "inputPort": "e083ca50-90b2-4662-8b72-f0f39b826fea",
+          "name": "i_SourceDirectory",
           "output": true,
-          "outputPort": "fd0cf62a-587f-45af-a13d-e1081c021fc5",
+          "outputPort": "fda81d03-737d-4ce2-a912-fa045c5773d6",
           "value": "'Scans/Functional/Realigned'",
           "visible": true,
           "iterator": false
@@ -4767,12 +4767,12 @@
             }
           ],
           "editable": true,
-          "id": "0cb04bc9-fe39-4107-b059-bd78ccc74e37",
+          "id": "e385577a-d942-4c35-92aa-a450f275ca01",
           "input": true,
-          "inputPort": "d351b921-6179-4429-af09-abe446c282ef",
+          "inputPort": "487c8cee-5e26-41d0-a5ea-4af91ff0b2ab",
           "name": "i_FunctionalFiles",
           "output": true,
-          "outputPort": "0b4cb149-c66f-47c5-8145-26a9edc5c5b7",
+          "outputPort": "70a3dcaf-3fc3-4712-a6f4-b930edb573e8",
           "value": "",
           "visible": true,
           "iterator": false
@@ -4788,41 +4788,41 @@
             }
           ],
           "editable": true,
-          "id": "dde279c9-3670-45d1-ab41-925926ae0fe7",
+          "id": "f189f57b-dc68-4c82-ab6b-6f152c4c464e",
           "input": true,
-          "inputPort": "54bb23a2-6aa7-4ffa-8e06-1a99588370a4",
+          "inputPort": "e26cd1e0-0835-4e18-aa56-6e0029fbd4d0",
           "name": "i_Confounds",
           "output": true,
-          "outputPort": "60df4fb7-63bf-4957-bc7d-c2066b95ca2f",
+          "outputPort": "3691013e-30e3-4b06-8015-b1c0688767b5",
           "value": "{'Respiration', 'Heartbeat', 'Motion', 'Filter'}",
           "visible": true,
           "iterator": false
         },
         {
-          "base": "o_FilteredFolder",
+          "base": "o_OutputDirectory",
           "code": [
             {
               "language": "TvM",
               "argument": {
-                "name": "o_FilteredFolder"
+                "name": "o_OutputDirectory"
               }
             }
           ],
           "editable": true,
-          "id": "0860470e-ecb9-484e-8941-dd10534eca71",
+          "id": "68fcbfa0-619f-41d1-8a5b-6c678ecf02d9",
           "input": false,
           "inputPort": false,
-          "name": "o_FilteredFolder",
+          "name": "o_OutputDirectory",
           "output": true,
-          "outputPort": "f103387a-5cc9-445a-8cbf-0af172d2b1db",
+          "outputPort": "3b82efe0-e383-493d-a183-aad7b00ffc89",
           "value": "'Scans/Functional/Filtered/'",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        447.69172822377163,
-        497.8470787467986
+        398.2044338876726,
+        423.454283366251
       ],
       "code": [
         {

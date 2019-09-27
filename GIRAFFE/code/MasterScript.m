@@ -203,9 +203,9 @@ tvm_roiToDesignMatrix(configuration);
 
 configuration = [];
 configuration.i_DesignMatrix = 'DesignMatrix/Design.mat';
-configuration.i_FunctionalFolder = 'Scans/Functional/Realigned';
+configuration.i_SourceDirectory = 'Scans/Functional/Realigned';
 configuration.i_Confounds = {'Respiration', 'Heartbeat', 'Motion', 'Filter'};
-configuration.o_FilteredFolder = 'Scans/Functional/Filtered/';
+configuration.o_OutputDirectory = 'Scans/Functional/Filtered/';
 tvm_regressConfounds(configuration);
 
 configuration = [];
